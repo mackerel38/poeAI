@@ -1,0 +1,1067 @@
+2026-06-05T17:42:03 portable source engine=/home/mackerel38/poeAI_shogigui/poeAI/poeAI eval=/home/mackerel38/poeAI_shogigui/poeAI/poeAI_nn.nnue
+2026-06-05T17:42:03 distro=default engine=$HOME/.poeAI_shogigui_runtime/poeAI
+2026-06-05T17:42:03 args=--exec /bin/sh -lc "cd \"$HOME/.poeAI_shogigui_runtime\" && exec ./poeAI"
+2026-06-05T17:42:03 GUI> usi
+2026-06-05T17:42:03 ENGINE> id name poeAI
+2026-06-05T17:42:03 ENGINE> id author poe
+2026-06-05T17:42:03 ENGINE> option name Hash type spin default 64 min 1 max 4096
+2026-06-05T17:42:03 ENGINE> option name Threads type spin default 1 min 1 max 1
+2026-06-05T17:42:03 ENGINE> option name USI_Ponder type check default false
+2026-06-05T17:42:03 ENGINE> option name MoveOverhead type spin default 100 min 0 max 5000
+2026-06-05T17:42:03 ENGINE> option name MaxThinkTime type spin default 5000 min 100 max 5000
+2026-06-05T17:42:03 ENGINE> option name EvalFile type string default <empty>
+2026-06-05T17:42:03 ENGINE> usiok
+2026-06-05T17:42:03 GUI> setoption name USI_Hash value 1024
+2026-06-05T17:42:03 GUI> setoption name USI_Ponder value true
+2026-06-05T17:42:03 GUI> setoption name Hash value 64
+2026-06-05T17:42:03 GUI> setoption name Threads value 1
+2026-06-05T17:42:03 GUI> setoption name MoveOverhead value 100
+2026-06-05T17:42:03 GUI> setoption name MaxThinkTime value 5000
+2026-06-05T17:42:03 GUI> setoption name EvalFile value 
+2026-06-05T17:42:03 GUI> isready
+2026-06-05T17:42:03 ENGINE> info string evaluation NNUE
+2026-06-05T17:42:03 ENGINE> readyok
+2026-06-05T17:42:03 GUI> usinewgame
+2026-06-05T17:42:03 GUI> position startpos
+2026-06-05T17:42:03 GUI> go btime 600000 wtime 600000 byoyomi 30000
+2026-06-05T17:42:03 ENGINE> info depth 0 score cp 0 nodes 0 string book
+2026-06-05T17:42:03 ENGINE> bestmove 2g2f
+2026-06-05T17:42:14 GUI> gameover draw
+2026-06-05T17:42:14 GUI> quit
+2026-06-05T17:42:35 portable source engine=/home/mackerel38/poeAI_shogigui/poeAI/poeAI eval=/home/mackerel38/poeAI_shogigui/poeAI/poeAI_nn.nnue
+2026-06-05T17:42:35 distro=default engine=$HOME/.poeAI_shogigui_runtime/poeAI
+2026-06-05T17:42:35 args=--exec /bin/sh -lc "cd \"$HOME/.poeAI_shogigui_runtime\" && exec ./poeAI"
+2026-06-05T17:42:35 GUI> usi
+2026-06-05T17:42:35 ENGINE> id name poeAI
+2026-06-05T17:42:35 ENGINE> id author poe
+2026-06-05T17:42:35 ENGINE> option name Hash type spin default 64 min 1 max 4096
+2026-06-05T17:42:35 ENGINE> option name Threads type spin default 1 min 1 max 1
+2026-06-05T17:42:35 ENGINE> option name USI_Ponder type check default false
+2026-06-05T17:42:35 ENGINE> option name MoveOverhead type spin default 100 min 0 max 5000
+2026-06-05T17:42:35 ENGINE> option name MaxThinkTime type spin default 5000 min 100 max 5000
+2026-06-05T17:42:35 ENGINE> option name EvalFile type string default <empty>
+2026-06-05T17:42:35 ENGINE> usiok
+2026-06-05T17:42:35 GUI> setoption name USI_Hash value 1024
+2026-06-05T17:42:35 GUI> setoption name USI_Ponder value true
+2026-06-05T17:42:35 GUI> setoption name Hash value 64
+2026-06-05T17:42:35 GUI> setoption name Threads value 1
+2026-06-05T17:42:35 GUI> setoption name MoveOverhead value 100
+2026-06-05T17:42:35 GUI> setoption name MaxThinkTime value 5000
+2026-06-05T17:42:35 GUI> setoption name EvalFile value 
+2026-06-05T17:42:35 GUI> isready
+2026-06-05T17:42:35 ENGINE> info string evaluation NNUE
+2026-06-05T17:42:35 ENGINE> readyok
+2026-06-05T17:42:35 GUI> usinewgame
+2026-06-05T17:42:35 GUI> position startpos
+2026-06-05T17:42:35 GUI> go btime 600000 wtime 600000 byoyomi 30000
+2026-06-05T17:42:35 ENGINE> info depth 0 score cp 0 nodes 0 string book
+2026-06-05T17:42:35 ENGINE> bestmove 2g2f
+2026-06-05T17:42:43 GUI> position startpos moves 2g2f 8c8d
+2026-06-05T17:42:43 GUI> go btime 599964 wtime 592084 byoyomi 30000
+2026-06-05T17:42:49 ENGINE> info depth 6 score cp 98 nodes 391040 string budget_ms 5000
+2026-06-05T17:42:49 ENGINE> bestmove 2f2e
+2026-06-05T17:42:51 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e
+2026-06-05T17:42:51 GUI> go btime 594377 wtime 590297 byoyomi 30000
+2026-06-05T17:42:56 ENGINE> info depth 5 score cp 155 nodes 264705 string budget_ms 5000
+2026-06-05T17:42:56 ENGINE> bestmove 2e2d
+2026-06-05T17:43:00 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d
+2026-06-05T17:43:00 GUI> go btime 588793 wtime 586744 byoyomi 30000
+2026-06-05T17:43:05 ENGINE> info depth 5 score cp 115 nodes 227337 string budget_ms 5000
+2026-06-05T17:43:05 ENGINE> bestmove 2h2f
+2026-06-05T17:43:13 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b
+2026-06-05T17:43:13 GUI> go btime 583337 wtime 578599 byoyomi 30000
+2026-06-05T17:43:19 ENGINE> info depth 5 score cp 125 nodes 315904 string budget_ms 5000
+2026-06-05T17:43:19 ENGINE> bestmove 2f9f
+2026-06-05T17:43:35 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f
+2026-06-05T17:43:35 GUI> go btime 577749 wtime 562401 byoyomi 30000
+2026-06-05T17:43:41 ENGINE> info depth 5 score cp 204 nodes 316928 string budget_ms 5000
+2026-06-05T17:43:41 ENGINE> bestmove 9f8f
+2026-06-05T17:43:43 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f
+2026-06-05T17:43:43 GUI> go btime 572339 wtime 559744 byoyomi 30000
+2026-06-05T17:43:49 ENGINE> info depth 5 score cp 83 nodes 264450 string budget_ms 5000
+2026-06-05T17:43:49 ENGINE> bestmove 8g8f
+2026-06-05T17:43:51 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g
+2026-06-05T17:43:51 GUI> go btime 566756 wtime 557886 byoyomi 30000
+2026-06-05T17:43:56 ENGINE> info depth 4 score cp 42 nodes 311046 string budget_ms 5000
+2026-06-05T17:43:56 ENGINE> bestmove R*8c
+2026-06-05T17:44:04 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b
+2026-06-05T17:44:04 GUI> go btime 561170 wtime 550596 byoyomi 30000
+2026-06-05T17:44:09 ENGINE> info depth 5 score cp 180 nodes 242963 string budget_ms 5000
+2026-06-05T17:44:09 ENGINE> bestmove 8c8b+
+2026-06-05T17:44:11 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b 8c8b+ 7a8b
+2026-06-05T17:44:11 GUI> go btime 555646 wtime 548778 byoyomi 30000
+2026-06-05T17:44:16 ENGINE> info depth 5 score cp 69 nodes 343048 string budget_ms 5000
+2026-06-05T17:44:16 ENGINE> bestmove R*8d
+2026-06-05T17:44:23 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b 8c8b+ 7a8b R*8d 6a7b
+2026-06-05T17:44:23 GUI> go btime 550198 wtime 541952 byoyomi 30000
+2026-06-05T17:44:29 ENGINE> info depth 4 score cp 15 nodes 247808 string budget_ms 5000
+2026-06-05T17:44:29 ENGINE> bestmove P*2c
+2026-06-05T17:44:35 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b 8c8b+ 7a8b R*8d 6a7b P*2c 3b2c
+2026-06-05T17:44:35 GUI> go btime 544613 wtime 535744 byoyomi 30000
+2026-06-05T17:44:41 ENGINE> info depth 4 score cp -53 nodes 194305 string budget_ms 5000
+2026-06-05T17:44:41 ENGINE> bestmove 8d8b
+2026-06-05T17:44:46 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b 8c8b+ 7a8b R*8d 6a7b P*2c 3b2c 8d8b 7b8b
+2026-06-05T17:44:46 GUI> go btime 539029 wtime 530468 byoyomi 30000
+2026-06-05T17:44:51 ENGINE> info depth 4 score cp -139 nodes 189457 string budget_ms 5000
+2026-06-05T17:44:51 ENGINE> bestmove S*7a
+2026-06-05T17:44:57 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b 8c8b+ 7a8b R*8d 6a7b P*2c 3b2c 8d8b 7b8b S*7a 8b7b
+2026-06-05T17:44:57 GUI> go btime 533594 wtime 525224 byoyomi 30000
+2026-06-05T17:45:02 ENGINE> info depth 4 score cp -334 nodes 190593 string budget_ms 5000
+2026-06-05T17:45:02 ENGINE> bestmove 7a8b+
+2026-06-05T17:45:07 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b 8c8b+ 7a8b R*8d 6a7b P*2c 3b2c 8d8b 7b8b S*7a 8b7b 7a8b+ 7b8b
+2026-06-05T17:45:07 GUI> go btime 528009 wtime 520510 byoyomi 30000
+2026-06-05T17:45:13 ENGINE> info depth 4 score cp -521 nodes 236289 string budget_ms 5000
+2026-06-05T17:45:13 ENGINE> bestmove 6i7h
+2026-06-05T17:45:16 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b 8c8b+ 7a8b R*8d 6a7b P*2c 3b2c 8d8b 7b8b S*7a 8b7b 7a8b+ 7b8b 6i7h 8g8h+
+2026-06-05T17:45:16 GUI> go btime 522420 wtime 517037 byoyomi 30000
+2026-06-05T17:45:22 ENGINE> info depth 4 score cp -714 nodes 172032 string budget_ms 5000
+2026-06-05T17:45:22 ENGINE> bestmove 7i8h
+2026-06-05T17:45:26 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b 8c8b+ 7a8b R*8d 6a7b P*2c 3b2c 8d8b 7b8b S*7a 8b7b 7a8b+ 7b8b 6i7h 8g8h+ 7i8h R*2g
+2026-06-05T17:45:26 GUI> go btime 516866 wtime 513098 byoyomi 30000
+2026-06-05T17:45:31 ENGINE> info depth 4 score cp -757 nodes 210444 string budget_ms 5000
+2026-06-05T17:45:31 ENGINE> bestmove P*2h
+2026-06-05T17:45:37 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b 8c8b+ 7a8b R*8d 6a7b P*2c 3b2c 8d8b 7b8b S*7a 8b7b 7a8b+ 7b8b 6i7h 8g8h+ 7i8h R*2g P*2h 2g2f+
+2026-06-05T17:45:37 GUI> go btime 511343 wtime 507139 byoyomi 30000
+2026-06-05T17:45:43 ENGINE> info depth 4 score cp -773 nodes 248064 string budget_ms 5000
+2026-06-05T17:45:43 ENGINE> bestmove 2h2g
+2026-06-05T17:45:47 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b 8c8b+ 7a8b R*8d 6a7b P*2c 3b2c 8d8b 7b8b S*7a 8b7b 7a8b+ 7b8b 6i7h 8g8h+ 7i8h R*2g P*2h 2g2f+ 2h2g 2f2g
+2026-06-05T17:45:47 GUI> go btime 505840 wtime 502516 byoyomi 30000
+2026-06-05T17:45:53 ENGINE> info depth 4 score cp -951 nodes 204800 string budget_ms 5000
+2026-06-05T17:45:53 ENGINE> bestmove 3i3h
+2026-06-05T17:45:54 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b 8c8b+ 7a8b R*8d 6a7b P*2c 3b2c 8d8b 7b8b S*7a 8b7b 7a8b+ 7b8b 6i7h 8g8h+ 7i8h R*2g P*2h 2g2f+ 2h2g 2f2g 3i3h 2g2h
+2026-06-05T17:45:54 GUI> go btime 500330 wtime 501509 byoyomi 30000
+2026-06-05T17:45:59 ENGINE> info depth 4 score cp -892 nodes 231300 string budget_ms 5000
+2026-06-05T17:45:59 ENGINE> bestmove 8h8g
+2026-06-05T17:46:08 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b 8c8b+ 7a8b R*8d 6a7b P*2c 3b2c 8d8b 7b8b S*7a 8b7b 7a8b+ 7b8b 6i7h 8g8h+ 7i8h R*2g P*2h 2g2f+ 2h2g 2f2g 3i3h 2g2h 8h8g 2h1i
+2026-06-05T17:46:08 GUI> go btime 494824 wtime 493285 byoyomi 30000
+2026-06-05T17:46:13 ENGINE> info depth 4 score cp -892 nodes 239232 string budget_ms 5000
+2026-06-05T17:46:13 ENGINE> bestmove 8g9f
+2026-06-05T17:46:33 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b 8c8b+ 7a8b R*8d 6a7b P*2c 3b2c 8d8b 7b8b S*7a 8b7b 7a8b+ 7b8b 6i7h 8g8h+ 7i8h R*2g P*2h 2g2f+ 2h2g 2f2g 3i3h 2g2h 8h8g 2h1i 8g9f 9c9d
+2026-06-05T17:46:33 GUI> go btime 489309 wtime 472996 byoyomi 30000
+2026-06-05T17:46:39 ENGINE> info depth 3 score cp -803 nodes 451968 string budget_ms 5000
+2026-06-05T17:46:39 ENGINE> bestmove 4i3i
+2026-06-05T17:46:48 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b 8c8b+ 7a8b R*8d 6a7b P*2c 3b2c 8d8b 7b8b S*7a 8b7b 7a8b+ 7b8b 6i7h 8g8h+ 7i8h R*2g P*2h 2g2f+ 2h2g 2f2g 3i3h 2g2h 8h8g 2h1i 8g9f 9c9d 4i3i P*8h
+2026-06-05T17:46:48 GUI> go btime 483799 wtime 464396 byoyomi 30000
+2026-06-05T17:46:53 ENGINE> info depth 4 score cp -1015 nodes 222848 string budget_ms 5000
+2026-06-05T17:46:53 ENGINE> bestmove 7g7f
+2026-06-05T17:46:59 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b 8c8b+ 7a8b R*8d 6a7b P*2c 3b2c 8d8b 7b8b S*7a 8b7b 7a8b+ 7b8b 6i7h 8g8h+ 7i8h R*2g P*2h 2g2f+ 2h2g 2f2g 3i3h 2g2h 8h8g 2h1i 8g9f 9c9d 4i3i P*8h 7g7f 8h8i+
+2026-06-05T17:46:59 GUI> go btime 478302 wtime 458735 byoyomi 30000
+2026-06-05T17:47:04 ENGINE> info depth 3 score cp -1022 nodes 444161 string budget_ms 5000
+2026-06-05T17:47:04 ENGINE> bestmove 3g3f
+2026-06-05T17:47:26 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b 8c8b+ 7a8b R*8d 6a7b P*2c 3b2c 8d8b 7b8b S*7a 8b7b 7a8b+ 7b8b 6i7h 8g8h+ 7i8h R*2g P*2h 2g2f+ 2h2g 2f2g 3i3h 2g2h 8h8g 2h1i 8g9f 9c9d 4i3i P*8h 7g7f 8h8i+ 3g3f 3c3d
+2026-06-05T17:47:26 GUI> go btime 472794 wtime 437558 byoyomi 30000
+2026-06-05T17:47:31 ENGINE> info depth 3 score cp -1088 nodes 254852 string budget_ms 5000
+2026-06-05T17:47:31 ENGINE> bestmove 3h3g
+2026-06-05T17:47:35 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b 8c8b+ 7a8b R*8d 6a7b P*2c 3b2c 8d8b 7b8b S*7a 8b7b 7a8b+ 7b8b 6i7h 8g8h+ 7i8h R*2g P*2h 2g2f+ 2h2g 2f2g 3i3h 2g2h 8h8g 2h1i 8g9f 9c9d 4i3i P*8h 7g7f 8h8i+ 3g3f 3c3d 3h3g 2b9i+
+2026-06-05T17:47:35 GUI> go btime 467290 wtime 433801 byoyomi 30000
+2026-06-05T17:47:40 ENGINE> info depth 3 score cp -1070 nodes 343428 string budget_ms 5000
+2026-06-05T17:47:40 ENGINE> bestmove 3g2h
+2026-06-05T17:47:50 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b 8c8b+ 7a8b R*8d 6a7b P*2c 3b2c 8d8b 7b8b S*7a 8b7b 7a8b+ 7b8b 6i7h 8g8h+ 7i8h R*2g P*2h 2g2f+ 2h2g 2f2g 3i3h 2g2h 8h8g 2h1i 8g9f 9c9d 4i3i P*8h 7g7f 8h8i+ 3g3f 3c3d 3h3g 2b9i+ 3g2h B*1e
+2026-06-05T17:47:50 GUI> go btime 461785 wtime 423892 byoyomi 30000
+2026-06-05T17:47:56 ENGINE> info depth 3 score cp -1130 nodes 314752 string budget_ms 5000
+2026-06-05T17:47:56 ENGINE> bestmove 5i6i
+2026-06-05T17:47:58 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b 8c8b+ 7a8b R*8d 6a7b P*2c 3b2c 8d8b 7b8b S*7a 8b7b 7a8b+ 7b8b 6i7h 8g8h+ 7i8h R*2g P*2h 2g2f+ 2h2g 2f2g 3i3h 2g2h 8h8g 2h1i 8g9f 9c9d 4i3i P*8h 7g7f 8h8i+ 3g3f 3c3d 3h3g 2b9i+ 3g2h B*1e 5i6i R*5i
+2026-06-05T17:47:58 GUI> go btime 456266 wtime 421487 byoyomi 30000
+2026-06-05T17:48:04 ENGINE> info depth 4 score cp -29996 nodes 174993 string budget_ms 5000
+2026-06-05T17:48:04 ENGINE> bestmove 6i6h
+2026-06-05T17:48:08 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b 8c8b+ 7a8b R*8d 6a7b P*2c 3b2c 8d8b 7b8b S*7a 8b7b 7a8b+ 7b8b 6i7h 8g8h+ 7i8h R*2g P*2h 2g2f+ 2h2g 2f2g 3i3h 2g2h 8h8g 2h1i 8g9f 9c9d 4i3i P*8h 7g7f 8h8i+ 3g3f 3c3d 3h3g 2b9i+ 3g2h B*1e 5i6i R*5i 6i6h N*5f
+2026-06-05T17:48:08 GUI> go btime 450763 wtime 417253 byoyomi 30000
+2026-06-05T17:48:13 ENGINE> info depth 4 score cp -29998 nodes 125441 string budget_ms 5000
+2026-06-05T17:48:13 ENGINE> bestmove 5g5f
+2026-06-05T17:48:15 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 2e2d 2c2d 2h2f 4a3b 2f9f 8e8f 9f8f 8b8f 8g8f P*8g R*8c R*8b 8c8b+ 7a8b R*8d 6a7b P*2c 3b2c 8d8b 7b8b S*7a 8b7b 7a8b+ 7b8b 6i7h 8g8h+ 7i8h R*2g P*2h 2g2f+ 2h2g 2f2g 3i3h 2g2h 8h8g 2h1i 8g9f 9c9d 4i3i P*8h 7g7f 8h8i+ 3g3f 3c3d 3h3g 2b9i+ 3g2h B*1e 5i6i R*5i 6i6h N*5f 5g5f S*5g
+2026-06-05T17:48:15 GUI> go btime 445254 wtime 416024 byoyomi 30000
+2026-06-05T17:48:15 ENGINE> bestmove resign
+2026-06-05T17:48:15 GUI> gameover lose
+2026-06-05T17:48:15 GUI> quit
+2026-06-05T17:50:26 portable source engine=/home/mackerel38/poeAI_shogigui/poeAI/poeAI eval=/home/mackerel38/poeAI_shogigui/poeAI/poeAI_nn.nnue
+2026-06-05T17:50:26 distro=default engine=$HOME/.poeAI_shogigui_runtime/poeAI
+2026-06-05T17:50:26 args=--exec /bin/sh -lc "cd \"$HOME/.poeAI_shogigui_runtime\" && exec ./poeAI"
+2026-06-05T17:50:26 GUI> usi
+2026-06-05T17:50:27 ENGINE> id name poeAI
+2026-06-05T17:50:27 ENGINE> id author poe
+2026-06-05T17:50:27 ENGINE> option name Hash type spin default 64 min 1 max 4096
+2026-06-05T17:50:27 ENGINE> option name Threads type spin default 1 min 1 max 1
+2026-06-05T17:50:27 ENGINE> option name USI_Ponder type check default false
+2026-06-05T17:50:27 ENGINE> option name MoveOverhead type spin default 100 min 0 max 5000
+2026-06-05T17:50:27 ENGINE> option name MaxThinkTime type spin default 5000 min 100 max 5000
+2026-06-05T17:50:27 ENGINE> option name EvalFile type string default <empty>
+2026-06-05T17:50:27 ENGINE> usiok
+2026-06-05T17:50:27 GUI> setoption name USI_Hash value 1024
+2026-06-05T17:50:27 GUI> setoption name USI_Ponder value true
+2026-06-05T17:50:27 GUI> setoption name Hash value 64
+2026-06-05T17:50:27 GUI> setoption name Threads value 1
+2026-06-05T17:50:27 GUI> setoption name MoveOverhead value 100
+2026-06-05T17:50:27 GUI> setoption name MaxThinkTime value 5000
+2026-06-05T17:50:27 GUI> setoption name EvalFile value 
+2026-06-05T17:50:27 GUI> isready
+2026-06-05T17:50:27 ENGINE> info string evaluation NNUE
+2026-06-05T17:50:27 ENGINE> readyok
+2026-06-05T17:50:27 GUI> usinewgame
+2026-06-05T17:50:27 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1P1P2/P2PsP2P/2GK3S1/+b+p2r1GN+r b N2lp 59
+2026-06-05T17:50:27 GUI> go infinite
+2026-06-05T17:50:27 ENGINE> bestmove resign
+2026-06-05T17:50:37 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP3P2/P2PPP2P/2G4S1/+b+p1K2GN+r w rsn2lp 54
+2026-06-05T17:50:37 GUI> go infinite
+2026-06-05T17:50:37 ENGINE> info depth 1 score cp 1186 nodes 896 string budget_ms 50
+2026-06-05T17:50:37 ENGINE> bestmove 1i1h
+2026-06-05T17:51:41 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP3P2/P2PPP2P/2G4S1/+b+p1Kr1GN+r b sn2lp 55
+2026-06-05T17:51:41 GUI> go infinite
+2026-06-05T17:51:41 ENGINE> info depth 2 score cp -1485 nodes 1920 string budget_ms 50
+2026-06-05T17:51:41 ENGINE> bestmove 6i6h
+2026-06-05T17:51:45 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP3P2/P2PPP2P/2GK3S1/+b+p2r1GN+r w sn2lp 56
+2026-06-05T17:51:45 GUI> go infinite
+2026-06-05T17:51:45 ENGINE> info depth 1 score cp 1485 nodes 1408 string budget_ms 50
+2026-06-05T17:51:45 ENGINE> bestmove S*7i
+2026-06-05T17:52:35 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1n1P2/P2PPP2P/2GK3S1/+b+p2r1GN+r b s2lp 57
+2026-06-05T17:52:35 GUI> go infinite
+2026-06-05T17:52:35 GUI> stop
+2026-06-05T17:52:35 ENGINE> info depth 2 score cp -29998 nodes 1160 string budget_ms 50
+2026-06-05T17:52:35 ENGINE> bestmove 5g5f
+2026-06-05T17:52:35 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1P1P2/P2P1P2P/2GK3S1/+b+p2r1GN+r w Ns2lp 58
+2026-06-05T17:52:35 GUI> go infinite
+2026-06-05T17:52:35 GUI> stop
+2026-06-05T17:52:35 ENGINE> info depth 1 score cp 29998 nodes 897 string budget_ms 50
+2026-06-05T17:52:35 ENGINE> bestmove S*5g
+2026-06-05T17:52:35 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1P1P2/P2PsP2P/2GK3S1/+b+p2r1GN+r b N2lp 59
+2026-06-05T17:52:35 GUI> go infinite
+2026-06-05T17:52:35 ENGINE> bestmove resign
+2026-06-05T17:52:35 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1P1P2/P2P1P2P/2GK3S1/+b+p2r1GN+r w Ns2lp 58
+2026-06-05T17:52:35 GUI> go infinite
+2026-06-05T17:52:36 ENGINE> info depth 1 score cp 29998 nodes 896 string budget_ms 50
+2026-06-05T17:52:36 ENGINE> bestmove S*5g
+2026-06-05T17:52:36 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1n1P2/P2PPP2P/2GK3S1/+b+p2r1GN+r b s2lp 57
+2026-06-05T17:52:36 GUI> go infinite
+2026-06-05T17:52:36 ENGINE> info depth 2 score cp -29998 nodes 1025 string budget_ms 50
+2026-06-05T17:52:36 ENGINE> bestmove 5g5f
+2026-06-05T17:52:36 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1P1P2/P2P1P2P/2GK3S1/+b+p2r1GN+r w Ns2lp 58
+2026-06-05T17:52:36 GUI> go infinite
+2026-06-05T17:52:37 ENGINE> info depth 1 score cp 29998 nodes 1031 string budget_ms 50
+2026-06-05T17:52:37 ENGINE> bestmove S*5g
+2026-06-05T17:52:37 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1P1P2/P2PsP2P/2GK3S1/+b+p2r1GN+r b N2lp 59
+2026-06-05T17:52:37 GUI> go infinite
+2026-06-05T17:52:37 ENGINE> bestmove resign
+2026-06-05T17:52:38 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1P1P2/P2P1P2P/2GK3S1/+b+p2r1GN+r w Ns2lp 58
+2026-06-05T17:52:38 GUI> go infinite
+2026-06-05T17:52:38 ENGINE> info depth 1 score cp 29998 nodes 770 string budget_ms 50
+2026-06-05T17:52:38 ENGINE> bestmove S*5g
+2026-06-05T17:52:41 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1n1P2/P2PPP2P/2GK3S1/+b+p2r1GN+r b s2lp 57
+2026-06-05T17:52:41 GUI> go infinite
+2026-06-05T17:52:41 ENGINE> info depth 3 score cp -29998 nodes 1408 string budget_ms 50
+2026-06-05T17:52:41 ENGINE> bestmove 5g5f
+2026-06-05T17:52:42 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1P1P2/P2P1P2P/2GK3S1/+b+p2r1GN+r w Ns2lp 58
+2026-06-05T17:52:42 GUI> go infinite
+2026-06-05T17:52:42 ENGINE> info depth 2 score cp 29998 nodes 1408 string budget_ms 50
+2026-06-05T17:52:42 ENGINE> bestmove S*5g
+2026-06-05T17:52:45 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1P1P2/P2PsP2P/2GK3S1/+b+p2r1GN+r b N2lp 59
+2026-06-05T17:52:45 GUI> go infinite
+2026-06-05T17:52:45 ENGINE> bestmove resign
+2026-06-05T17:52:46 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1P1P2/P2PsP2P/2GK3S1/+b+p2r1GN+r b N2lp 60
+2026-06-05T17:52:46 GUI> go infinite
+2026-06-05T17:52:46 ENGINE> bestmove resign
+2026-06-05T17:52:47 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1P1P2/P2PsP2P/2GK3S1/+b+p2r1GN+r b N2lp 59
+2026-06-05T17:52:47 GUI> go infinite
+2026-06-05T17:52:47 ENGINE> bestmove resign
+2026-06-05T17:52:47 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1P1P2/P2P1P2P/2GK3S1/+b+p2r1GN+r w Ns2lp 58
+2026-06-05T17:52:47 GUI> go infinite
+2026-06-05T17:52:47 ENGINE> info depth 2 score cp 29998 nodes 1544 string budget_ms 50
+2026-06-05T17:52:47 ENGINE> bestmove S*5g
+2026-06-05T17:52:53 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1n1P2/P2PPP2P/2GK3S1/+b+p2r1GN+r b s2lp 57
+2026-06-05T17:52:53 GUI> go infinite
+2026-06-05T17:52:53 ENGINE> info depth 3 score cp -29998 nodes 1676 string budget_ms 50
+2026-06-05T17:52:53 ENGINE> bestmove 5g5f
+2026-06-05T17:52:54 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP3P2/P2PPP2P/2GK3S1/+b+p2r1GN+r w sn2lp 56
+2026-06-05T17:52:54 GUI> go infinite
+2026-06-05T17:52:54 ENGINE> info depth 1 score cp 1485 nodes 1415 string budget_ms 50
+2026-06-05T17:52:54 ENGINE> bestmove S*7i
+2026-06-05T17:52:54 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1n1P2/P2PPP2P/2GK3S1/+b+p2r1GN+r b s2lp 57
+2026-06-05T17:52:54 GUI> go infinite
+2026-06-05T17:52:55 ENGINE> info depth 3 score cp -29998 nodes 1280 string budget_ms 50
+2026-06-05T17:52:55 ENGINE> bestmove 5g5f
+2026-06-05T17:52:56 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP3P2/P2PPP2P/2GK3S1/+b+p2r1GN+r w sn2lp 56
+2026-06-05T17:52:56 GUI> go infinite
+2026-06-05T17:52:56 ENGINE> info depth 1 score cp 1485 nodes 1155 string budget_ms 50
+2026-06-05T17:52:56 ENGINE> bestmove S*7i
+2026-06-05T17:52:57 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1n1P2/P2PPP2P/2GK3S1/+b+p2r1GN+r b s2lp 57
+2026-06-05T17:52:57 GUI> go infinite
+2026-06-05T17:52:57 ENGINE> info depth 3 score cp -29998 nodes 2304 string budget_ms 50
+2026-06-05T17:52:57 ENGINE> bestmove 5g5f
+2026-06-05T17:53:00 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP3P2/P2PPP2P/2GK3S1/+b+p2r1GN+r w sn2lp 56
+2026-06-05T17:53:00 GUI> go infinite
+2026-06-05T17:53:00 ENGINE> info depth 2 score cp 1270 nodes 1408 string budget_ms 50
+2026-06-05T17:53:00 ENGINE> bestmove 1i2h
+2026-06-05T17:53:00 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1n1P2/P2PPP2P/2GK3S1/+b+p2r1GN+r b s2lp 57
+2026-06-05T17:53:00 GUI> go infinite
+2026-06-05T17:53:01 ENGINE> info depth 3 score cp -29998 nodes 1664 string budget_ms 50
+2026-06-05T17:53:01 ENGINE> bestmove 5g5f
+2026-06-05T17:53:01 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1P1P2/P2P1P2P/2GK3S1/+b+p2r1GN+r w Ns2lp 58
+2026-06-05T17:53:01 GUI> go infinite
+2026-06-05T17:53:01 ENGINE> info depth 2 score cp 29998 nodes 1152 string budget_ms 50
+2026-06-05T17:53:01 ENGINE> bestmove S*5g
+2026-06-05T17:53:02 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1P1P2/P2PsP2P/2GK3S1/+b+p2r1GN+r b N2lp 59
+2026-06-05T17:53:02 GUI> go infinite
+2026-06-05T17:53:02 ENGINE> bestmove resign
+2026-06-05T17:53:02 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1P1P2/P2PsP2P/2GK3S1/+b+p2r1GN+r b N2lp 60
+2026-06-05T17:53:02 GUI> go infinite
+2026-06-05T17:53:02 ENGINE> bestmove resign
+2026-06-05T17:53:03 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1P1P2/P2PsP2P/2GK3S1/+b+p2r1GN+r b N2lp 59
+2026-06-05T17:53:03 GUI> go infinite
+2026-06-05T17:53:03 ENGINE> bestmove resign
+2026-06-05T17:53:04 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1P1P2/P2P1P2P/2GK3S1/+b+p2r1GN+r w Ns2lp 58
+2026-06-05T17:53:04 GUI> go infinite
+2026-06-05T17:53:04 ENGINE> info depth 2 score cp 29998 nodes 1157 string budget_ms 50
+2026-06-05T17:53:04 ENGINE> bestmove S*5g
+2026-06-05T17:53:04 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1n1P2/P2PPP2P/2GK3S1/+b+p2r1GN+r b s2lp 57
+2026-06-05T17:53:04 GUI> go infinite
+2026-06-05T17:53:04 ENGINE> info depth 3 score cp -29998 nodes 1664 string budget_ms 50
+2026-06-05T17:53:04 ENGINE> bestmove 5g5f
+2026-06-05T17:57:54 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP3P2/P2PPP2P/2GK3S1/+b+p2r1GN+r w sn2lp 56
+2026-06-05T17:57:54 GUI> go infinite
+2026-06-05T17:57:54 ENGINE> info depth 2 score cp 1270 nodes 768 string budget_ms 50
+2026-06-05T17:57:54 ENGINE> bestmove 1i2h
+2026-06-05T17:57:55 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP3P2/P2PPP2P/2G4S1/+b+p1Kr1GN+r b sn2lp 55
+2026-06-05T17:57:55 GUI> go infinite
+2026-06-05T17:57:55 ENGINE> info depth 3 score cp -1270 nodes 776 string budget_ms 50
+2026-06-05T17:57:55 ENGINE> bestmove 6i6h
+2026-06-05T17:57:56 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP3P2/P2PPP2P/2GK3S1/+b+p2r1GN+r w sn2lp 56
+2026-06-05T17:57:56 GUI> go infinite
+2026-06-05T17:57:56 ENGINE> info depth 2 score cp 1270 nodes 771 string budget_ms 50
+2026-06-05T17:57:56 ENGINE> bestmove 1i2h
+2026-06-05T17:58:09 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1n1P2/P2PPP2P/2GK3S1/+b+p2r1GN+r b s2lp 57
+2026-06-05T17:58:09 GUI> go infinite
+2026-06-05T17:58:09 ENGINE> info depth 3 score cp -29998 nodes 512 string budget_ms 50
+2026-06-05T17:58:09 ENGINE> bestmove 5g5f
+2026-06-05T17:58:10 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1P1P2/P2P1P2P/2GK3S1/+b+p2r1GN+r w Ns2lp 58
+2026-06-05T17:58:10 GUI> go infinite
+2026-06-05T17:58:10 ENGINE> info depth 2 score cp 29998 nodes 644 string budget_ms 50
+2026-06-05T17:58:10 ENGINE> bestmove S*5g
+2026-06-05T17:58:12 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1n1P2/P2PPP2P/2GK3S1/+b+p2r1GN+r b s2lp 57
+2026-06-05T17:58:12 GUI> go infinite
+2026-06-05T17:58:12 ENGINE> info depth 3 score cp -29998 nodes 512 string budget_ms 50
+2026-06-05T17:58:12 ENGINE> bestmove 5g5f
+2026-06-05T17:58:13 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1P1P2/P2P1P2P/2GK3S1/+b+p2r1GN+r w Ns2lp 58
+2026-06-05T17:58:13 GUI> go infinite
+2026-06-05T17:58:13 ENGINE> info depth 2 score cp 29998 nodes 396 string budget_ms 50
+2026-06-05T17:58:13 ENGINE> bestmove S*5g
+2026-06-05T17:58:14 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP1n1P2/P2PPP2P/2GK3S1/+b+p2r1GN+r b s2lp 57
+2026-06-05T17:58:14 GUI> go infinite
+2026-06-05T17:58:14 ENGINE> info depth 3 score cp -29998 nodes 384 string budget_ms 50
+2026-06-05T17:58:14 ENGINE> bestmove 5g5f
+2026-06-05T17:58:14 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP3P2/P2PPP2P/2GK3S1/+b+p2r1GN+r w sn2lp 56
+2026-06-05T17:58:14 GUI> go infinite
+2026-06-05T17:58:14 ENGINE> info depth 2 score cp 1270 nodes 512 string budget_ms 50
+2026-06-05T17:58:14 ENGINE> bestmove 1i2h
+2026-06-05T17:58:15 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP3P2/P2PPP2P/2G4S1/+b+p1Kr1GN+r b sn2lp 55
+2026-06-05T17:58:15 GUI> go infinite
+2026-06-05T17:58:15 ENGINE> info depth 3 score cp -1270 nodes 527 string budget_ms 50
+2026-06-05T17:58:15 ENGINE> bestmove 6i6h
+2026-06-05T17:58:16 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP3P2/P2PPP2P/2G4S1/+b+p1K2GN+r w rsn2lp 54
+2026-06-05T17:58:16 GUI> go infinite
+2026-06-05T17:58:16 ENGINE> info depth 1 score cp 1186 nodes 256 string budget_ms 50
+2026-06-05T17:58:16 ENGINE> bestmove 1i1h
+2026-06-05T17:58:17 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/8b/SPP3P2/P2PPP2P/2G4S1/+b+p2K1GN+r b rsn2lp 53
+2026-06-05T17:58:17 GUI> go infinite
+2026-06-05T17:58:18 ENGINE> info depth 1 score cp -1023 nodes 384 string budget_ms 50
+2026-06-05T17:58:18 ENGINE> bestmove 5i6h
+2026-06-05T17:58:19 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/9/SPP3P2/P2PPP2P/2G4S1/+b+p2K1GN+r w rbsn2lp 52
+2026-06-05T17:58:19 GUI> go infinite
+2026-06-05T17:58:20 ENGINE> info depth 0 score cp 0 nodes 389 string budget_ms 50
+2026-06-05T17:58:20 ENGINE> bestmove 9a9b
+2026-06-05T17:58:23 GUI> position sfen ln2k1snl/1g7/2pppp1gp/p5pp1/9/SPP3P2/P2PPPS1P/2G6/+b+p2K1GN+r b rbsn2lp 51
+2026-06-05T17:58:23 GUI> go infinite
+2026-06-05T17:58:24 ENGINE> info depth 1 score cp -792 nodes 391 string budget_ms 50
+2026-06-05T17:58:24 ENGINE> bestmove 5g5f
+2026-06-05T17:58:25 GUI> position sfen ln2k1snl/1g5b1/2pppp1gp/p5pp1/9/SPP3P2/P2PPPS1P/2G6/L+p2K1GN+r w rbsnlp 50
+2026-06-05T17:58:25 GUI> go infinite
+2026-06-05T17:58:25 ENGINE> info depth 1 score cp 930 nodes 527 string budget_ms 50
+2026-06-05T17:58:25 ENGINE> bestmove R*1h
+2026-06-05T17:58:27 GUI> position sfen ln2k1snl/1g5b1/2pppp1gp/p5pp1/9/SPP3P2/P2PPP2P/2G3S2/L+p2K1GN+r b rbsnlp 49
+2026-06-05T17:58:27 GUI> go infinite
+2026-06-05T17:58:27 ENGINE> info depth 1 score cp -839 nodes 390 string budget_ms 50
+2026-06-05T17:58:27 ENGINE> bestmove 3h3g
+2026-06-05T17:58:46 GUI> gameover draw
+2026-06-05T17:58:46 GUI> quit
+2026-06-05T18:16:26 portable source engine=/home/mackerel38/poeAI_shogigui/poeAI/poeAI eval=/home/mackerel38/poeAI_shogigui/poeAI/poeAI_nn.nnue
+2026-06-05T18:16:26 distro=default engine=$HOME/.poeAI_shogigui_runtime/poeAI
+2026-06-05T18:16:26 args=--exec /bin/sh -lc "cd \"$HOME/.poeAI_shogigui_runtime\" && exec ./poeAI"
+2026-06-05T18:16:26 GUI> usi
+2026-06-05T18:16:27 ENGINE> id name poeAI
+2026-06-05T18:16:27 ENGINE> id author poe
+2026-06-05T18:16:27 ENGINE> option name Hash type spin default 64 min 1 max 4096
+2026-06-05T18:16:27 ENGINE> option name Threads type spin default 1 min 1 max 1
+2026-06-05T18:16:27 ENGINE> option name USI_Ponder type check default false
+2026-06-05T18:16:27 ENGINE> option name MoveOverhead type spin default 100 min 0 max 5000
+2026-06-05T18:16:27 ENGINE> option name MaxThinkTime type spin default 10000 min 100 max 10000
+2026-06-05T18:16:27 ENGINE> option name EvalFile type string default <empty>
+2026-06-05T18:16:27 ENGINE> usiok
+2026-06-05T18:16:27 GUI> setoption name USI_Hash value 1024
+2026-06-05T18:16:27 GUI> setoption name USI_Ponder value true
+2026-06-05T18:16:27 GUI> setoption name Hash value 64
+2026-06-05T18:16:27 GUI> setoption name Threads value 1
+2026-06-05T18:16:27 GUI> setoption name MoveOverhead value 100
+2026-06-05T18:16:27 GUI> setoption name MaxThinkTime value 5000
+2026-06-05T18:16:27 GUI> setoption name EvalFile value 
+2026-06-05T18:16:27 ENGINE> info string failed to load EvalFile path=[]
+2026-06-05T18:16:27 ENGINE> info string evaluation NNUE
+2026-06-05T18:16:27 ENGINE> readyok
+2026-06-05T18:16:27 GUI> usinewgame
+2026-06-05T18:16:27 GUI> position sfen lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1
+2026-06-05T18:16:27 GUI> go infinite
+2026-06-05T18:16:27 ENGINE> info depth 0 score cp 0 nodes 0 string book
+2026-06-05T18:16:27 ENGINE> bestmove 2g2f
+2026-06-05T18:16:34 GUI> position sfen lnsgkgsnl/1r5b1/ppppppppp/9/9/7P1/PPPPPPP1P/1B5R1/LNSGKGSNL w - 2
+2026-06-05T18:16:34 GUI> go infinite
+2026-06-05T18:16:34 ENGINE> info depth 2 score cp -68 nodes 5248 string budget_ms 50
+2026-06-05T18:16:34 ENGINE> bestmove 3a4b
+2026-06-05T18:16:36 GUI> position sfen lnsgkg1nl/1r3s1b1/ppppppppp/9/9/7P1/PPPPPPP1P/1B5R1/LNSGKGSNL b - 3
+2026-06-05T18:16:36 GUI> go infinite
+2026-06-05T18:16:36 ENGINE> info depth 3 score cp 62 nodes 3712 string budget_ms 50
+2026-06-05T18:16:36 ENGINE> bestmove 3i3h
+2026-06-05T18:16:38 GUI> position sfen lnsgkg1nl/1r3s1b1/ppppppppp/9/9/7P1/PPPPPPP1P/1B4SR1/LNSGKG1NL w - 4
+2026-06-05T18:16:38 GUI> go infinite
+2026-06-05T18:16:38 ENGINE> info depth 2 score cp -62 nodes 1408 string budget_ms 50
+2026-06-05T18:16:38 ENGINE> bestmove 6a6b
+2026-06-05T18:16:40 GUI> position sfen lns1kg1nl/1r1g1s1b1/ppppppppp/9/9/7P1/PPPPPPP1P/1B4SR1/LNSGKG1NL b - 5
+2026-06-05T18:16:40 GUI> go infinite
+2026-06-05T18:16:40 ENGINE> info depth 2 score cp -26 nodes 2304 string budget_ms 50
+2026-06-05T18:16:40 ENGINE> bestmove 7g7f
+2026-06-05T18:17:43 GUI> position sfen lns1kg1nl/1r1g1s1b1/ppppppppp/9/9/2P4P1/PP1PPPP1P/1B4SR1/LNSGKG1NL w - 6
+2026-06-05T18:17:43 GUI> go infinite
+2026-06-05T18:17:43 ENGINE> info depth 1 score cp 26 nodes 1283 string budget_ms 50
+2026-06-05T18:17:43 ENGINE> bestmove 7a7b
+2026-06-05T18:17:44 GUI> position sfen ln2kg1nl/1rsg1s1b1/ppppppppp/9/9/2P4P1/PP1PPPP1P/1B4SR1/LNSGKG1NL b - 7
+2026-06-05T18:17:44 GUI> go infinite
+2026-06-05T18:17:44 ENGINE> info depth 0 score cp 175 nodes 3712 string budget_ms 50
+2026-06-05T18:17:44 ENGINE> bestmove 8h3c+
+2026-06-05T18:20:34 GUI> gameover draw
+2026-06-05T18:20:34 GUI> quit
+2026-06-05T18:21:22 portable source engine=/home/mackerel38/poeAI_shogigui/poeAI/poeAI eval=/home/mackerel38/poeAI_shogigui/poeAI/poeAI_nn.nnue
+2026-06-05T18:21:23 distro=default engine=$HOME/.poeAI_shogigui_runtime/poeAI
+2026-06-05T18:21:23 args=--exec /bin/sh -lc "cd \"$HOME/.poeAI_shogigui_runtime\" && exec ./poeAI"
+2026-06-05T18:21:23 GUI> usi
+2026-06-05T18:21:23 ENGINE> id name poeAI
+2026-06-05T18:21:23 ENGINE> id author poe
+2026-06-05T18:21:23 ENGINE> option name Hash type spin default 64 min 1 max 4096
+2026-06-05T18:21:23 ENGINE> option name Threads type spin default 1 min 1 max 1
+2026-06-05T18:21:23 ENGINE> option name USI_Ponder type check default false
+2026-06-05T18:21:23 ENGINE> option name MoveOverhead type spin default 100 min 0 max 5000
+2026-06-05T18:21:23 ENGINE> option name MaxThinkTime type spin default 10000 min 100 max 10000
+2026-06-05T18:21:23 ENGINE> option name EvalFile type string default <empty>
+2026-06-05T18:21:23 ENGINE> usiok
+2026-06-05T18:21:30 GUI> quit
+2026-06-05T18:22:26 portable source engine=/home/mackerel38/poeAI_shogigui/poeAI/poeAI eval=/home/mackerel38/poeAI_shogigui/poeAI/poeAI_nn.nnue
+2026-06-05T18:22:26 distro=default engine=$HOME/.poeAI_shogigui_runtime/poeAI
+2026-06-05T18:22:26 args=--exec /bin/sh -lc "cd \"$HOME/.poeAI_shogigui_runtime\" && exec ./poeAI"
+2026-06-05T18:22:26 GUI> usi
+2026-06-05T18:22:26 ENGINE> id name poeAI
+2026-06-05T18:22:26 ENGINE> id author poe
+2026-06-05T18:22:26 ENGINE> option name Hash type spin default 64 min 1 max 4096
+2026-06-05T18:22:26 ENGINE> option name Threads type spin default 1 min 1 max 1
+2026-06-05T18:22:26 ENGINE> option name USI_Ponder type check default false
+2026-06-05T18:22:26 ENGINE> option name MoveOverhead type spin default 100 min 0 max 5000
+2026-06-05T18:22:26 ENGINE> option name MaxThinkTime type spin default 10000 min 100 max 10000
+2026-06-05T18:22:26 ENGINE> option name EvalFile type string default <empty>
+2026-06-05T18:22:26 ENGINE> usiok
+2026-06-05T18:22:26 GUI> setoption name USI_Hash value 1024
+2026-06-05T18:22:26 GUI> setoption name USI_Ponder value true
+2026-06-05T18:22:26 GUI> setoption name Hash value 64
+2026-06-05T18:22:26 GUI> setoption name Threads value 1
+2026-06-05T18:22:26 GUI> setoption name MoveOverhead value 100
+2026-06-05T18:22:26 GUI> setoption name MaxThinkTime value 10000
+2026-06-05T18:22:26 GUI> setoption name EvalFile value 
+2026-06-05T18:22:26 ENGINE> info string failed to load EvalFile path=[]
+2026-06-05T18:22:26 ENGINE> info string evaluation NNUE
+2026-06-05T18:22:26 ENGINE> readyok
+2026-06-05T18:22:27 portable source engine=/home/mackerel38/poeAI_shogigui/poeAI/poeAI eval=/home/mackerel38/poeAI_shogigui/poeAI/poeAI_nn.nnue
+2026-06-05T18:22:27 prep stderr: cp: cannot create regular file '/home/mackerel38/.poeAI_shogigui_runtime/poeAI': Text file busy
+
+2026-06-05T18:24:12 GUI> gameover draw
+2026-06-05T18:24:12 GUI> quit
+2026-06-05T18:24:22 portable source engine=/home/mackerel38/poeAI_shogigui/poeAI/poeAI eval=/home/mackerel38/poeAI_shogigui/poeAI/poeAI_nn.nnue
+2026-06-05T18:24:22 distro=default engine=$HOME/.poeAI_shogigui_runtime/poeAI
+2026-06-05T18:24:22 args=--exec /bin/sh -lc "cd \"$HOME/.poeAI_shogigui_runtime\" && exec ./poeAI"
+2026-06-05T18:24:22 GUI> usi
+2026-06-05T18:24:23 ENGINE> id name poeAI
+2026-06-05T18:24:23 ENGINE> id author poe
+2026-06-05T18:24:23 ENGINE> option name Hash type spin default 64 min 1 max 4096
+2026-06-05T18:24:23 ENGINE> option name Threads type spin default 1 min 1 max 1
+2026-06-05T18:24:23 ENGINE> option name USI_Ponder type check default false
+2026-06-05T18:24:23 ENGINE> option name MoveOverhead type spin default 100 min 0 max 5000
+2026-06-05T18:24:23 ENGINE> option name MaxThinkTime type spin default 10000 min 100 max 10000
+2026-06-05T18:24:23 ENGINE> option name EvalFile type string default <empty>
+2026-06-05T18:24:23 ENGINE> usiok
+2026-06-05T18:24:23 GUI> setoption name USI_Hash value 1024
+2026-06-05T18:24:23 GUI> setoption name USI_Ponder value true
+2026-06-05T18:24:23 GUI> setoption name Hash value 64
+2026-06-05T18:24:23 GUI> setoption name Threads value 1
+2026-06-05T18:24:23 GUI> setoption name MoveOverhead value 100
+2026-06-05T18:24:23 GUI> setoption name MaxThinkTime value 10000
+2026-06-05T18:24:23 GUI> setoption name EvalFile value 
+2026-06-05T18:24:23 GUI> isready
+2026-06-05T18:24:23 ENGINE> info string evaluation NNUE
+2026-06-05T18:24:23 ENGINE> readyok
+2026-06-05T18:24:23 portable source engine=/home/mackerel38/poeAI_shogigui/poeAI/poeAI eval=/home/mackerel38/poeAI_shogigui/poeAI/poeAI_nn.nnue
+2026-06-05T18:24:23 prep stderr: cp: cannot create regular file '/home/mackerel38/.poeAI_shogigui_runtime/poeAI': Text file busy
+
+2026-06-05T18:29:00 GUI> gameover draw
+2026-06-05T18:29:00 GUI> quit
+2026-06-05T21:59:58 portable source engine=/home/mackerel38/poeAI_shogigui/poeAI/poeAI eval=/home/mackerel38/poeAI_shogigui/poeAI/poeAI_nn.nnue
+2026-06-05T22:00:12 distro=default engine=$HOME/.poeAI_shogigui_runtime/poeAI
+2026-06-05T22:00:12 args=--exec /bin/sh -lc "cd \"$HOME/.poeAI_shogigui_runtime\" && exec ./poeAI"
+2026-06-05T22:00:12 GUI> usi
+2026-06-05T22:00:12 ENGINE> id name poeAI
+2026-06-05T22:00:12 ENGINE> id author poe
+2026-06-05T22:00:12 ENGINE> option name Hash type spin default 64 min 1 max 4096
+2026-06-05T22:00:12 ENGINE> option name Threads type spin default 1 min 1 max 1
+2026-06-05T22:00:12 ENGINE> option name USI_Ponder type check default false
+2026-06-05T22:00:12 ENGINE> option name MoveOverhead type spin default 100 min 0 max 5000
+2026-06-05T22:00:12 ENGINE> option name MaxThinkTime type spin default 10000 min 100 max 10000
+2026-06-05T22:00:12 ENGINE> option name EvalFile type string default <empty>
+2026-06-05T22:00:12 ENGINE> usiok
+2026-06-05T22:00:40 GUI> quit
+2026-06-05T22:01:00 portable source engine=/home/mackerel38/poeAI_shogigui/poeAI/poeAI eval=/home/mackerel38/poeAI_shogigui/poeAI/poeAI_nn.nnue
+2026-06-05T22:01:00 distro=default engine=$HOME/.poeAI_shogigui_runtime/poeAI
+2026-06-05T22:01:00 args=--exec /bin/sh -lc "cd \"$HOME/.poeAI_shogigui_runtime\" && exec ./poeAI"
+2026-06-05T22:01:00 GUI> usi
+2026-06-05T22:01:00 ENGINE> id name poeAI
+2026-06-05T22:01:00 ENGINE> id author poe
+2026-06-05T22:01:00 ENGINE> option name Hash type spin default 64 min 1 max 4096
+2026-06-05T22:01:00 ENGINE> option name Threads type spin default 1 min 1 max 1
+2026-06-05T22:01:00 ENGINE> option name USI_Ponder type check default false
+2026-06-05T22:01:00 ENGINE> option name MoveOverhead type spin default 100 min 0 max 5000
+2026-06-05T22:01:00 ENGINE> option name MaxThinkTime type spin default 10000 min 100 max 10000
+2026-06-05T22:01:00 ENGINE> option name EvalFile type string default <empty>
+2026-06-05T22:01:00 ENGINE> usiok
+2026-06-05T22:01:00 GUI> setoption name USI_Hash value 1024
+2026-06-05T22:01:00 GUI> setoption name USI_Ponder value true
+2026-06-05T22:01:00 GUI> setoption name Hash value 64
+2026-06-05T22:01:00 GUI> setoption name Threads value 1
+2026-06-05T22:01:00 GUI> setoption name MoveOverhead value 100
+2026-06-05T22:01:00 GUI> setoption name MaxThinkTime value 10000
+2026-06-05T22:01:00 GUI> setoption name EvalFile value 
+2026-06-05T22:01:00 GUI> isready
+2026-06-05T22:01:00 ENGINE> info string evaluation NNUE
+2026-06-05T22:01:00 ENGINE> readyok
+2026-06-05T22:01:00 GUI> usinewgame
+2026-06-05T22:01:01 GUI> position startpos moves 2g2f
+2026-06-05T22:01:01 GUI> go btime 599361 wtime 600000 byoyomi 30000
+2026-06-05T22:01:01 ENGINE> info depth 0 score cp 0 nodes 0 string book
+2026-06-05T22:01:01 ENGINE> bestmove 8c8d
+2026-06-05T22:01:06 GUI> gameover draw
+2026-06-05T22:01:06 GUI> quit
+2026-06-05T22:06:29 portable source engine=/home/mackerel38/poeAI_shogigui/poeAI/poeAI eval=/home/mackerel38/poeAI_shogigui/poeAI/poeAI_nn.nnue
+2026-06-05T22:06:30 distro=default engine=$HOME/.poeAI_shogigui_runtime/poeAI
+2026-06-05T22:06:30 args=--exec /bin/sh -lc "cd \"$HOME/.poeAI_shogigui_runtime\" && exec ./poeAI"
+2026-06-05T22:06:30 GUI> usi
+2026-06-05T22:06:30 ENGINE> id name poeAI
+2026-06-05T22:06:30 ENGINE> id author poe
+2026-06-05T22:06:30 ENGINE> option name Hash type spin default 64 min 1 max 4096
+2026-06-05T22:06:30 ENGINE> option name Threads type spin default 1 min 1 max 1
+2026-06-05T22:06:30 ENGINE> option name USI_Ponder type check default false
+2026-06-05T22:06:30 ENGINE> option name MoveOverhead type spin default 100 min 0 max 5000
+2026-06-05T22:06:30 ENGINE> option name MaxThinkTime type spin default 10000 min 100 max 10000
+2026-06-05T22:06:30 ENGINE> option name EvalFile type string default <empty>
+2026-06-05T22:06:30 ENGINE> usiok
+2026-06-05T22:06:30 GUI> setoption name USI_Hash value 1024
+2026-06-05T22:06:30 GUI> setoption name USI_Ponder value true
+2026-06-05T22:06:30 GUI> setoption name Hash value 64
+2026-06-05T22:06:30 GUI> setoption name Threads value 1
+2026-06-05T22:06:30 GUI> setoption name MoveOverhead value 100
+2026-06-05T22:06:30 GUI> setoption name MaxThinkTime value 10000
+2026-06-05T22:06:30 GUI> setoption name EvalFile value 
+2026-06-05T22:06:30 GUI> isready
+2026-06-05T22:06:30 ENGINE> info string evaluation NNUE
+2026-06-05T22:06:30 ENGINE> readyok
+2026-06-05T22:06:30 GUI> usinewgame
+2026-06-05T22:07:05 GUI> position startpos moves 2g2f
+2026-06-05T22:07:06 GUI> go btime 565570 wtime 600000 byoyomi 30000
+2026-06-05T22:07:06 ENGINE> info depth 0 score cp 0 nodes 0 string book
+2026-06-05T22:07:07 ENGINE> bestmove 8c8d
+2026-06-05T22:07:10 GUI> position startpos moves 2g2f 8c8d 2f2e
+2026-06-05T22:07:11 GUI> go btime 562844 wtime 598100 byoyomi 30000
+2026-06-05T22:07:11 ENGINE> info depth 0 score cp 0 nodes 0 string book
+2026-06-05T22:07:11 ENGINE> bestmove 8d8e
+2026-06-05T22:07:15 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 7g7f
+2026-06-05T22:07:16 GUI> go btime 559421 wtime 597052 byoyomi 30000
+2026-06-05T22:07:16 ENGINE> info depth 0 score cp 0 nodes 0 string book
+2026-06-05T22:07:16 ENGINE> bestmove 3c3d
+2026-06-05T22:07:22 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 7g7f 3c3d 5i5h
+2026-06-05T22:07:22 GUI> go btime 554619 wtime 595136 byoyomi 30000
+2026-06-05T22:07:32 ENGINE> info depth 1 score cp 832 nodes 33153 string budget_ms 10000
+2026-06-05T22:07:32 ENGINE> bestmove 2b8h+
+2026-06-05T22:07:35 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 7g7f 3c3d 5i5h 2b8h+ 7i8h
+2026-06-05T22:07:35 GUI> go btime 552488 wtime 583904 byoyomi 30000
+2026-06-05T22:07:48 ENGINE> info depth 2 score cp -188 nodes 14721 string budget_ms 10000
+2026-06-05T22:07:48 ENGINE> bestmove 7a6b
+2026-06-05T22:08:07 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 7g7f 3c3d 5i5h 2b8h+ 7i8h 7a6b 8h7g
+2026-06-05T22:08:07 GUI> go btime 534358 wtime 570724 byoyomi 30000
+2026-06-05T22:08:17 ENGINE> info depth 2 score cp -189 nodes 227841 string budget_ms 10000
+2026-06-05T22:08:17 ENGINE> bestmove 1c1d
+2026-06-05T22:08:21 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 7g7f 3c3d 5i5h 2b8h+ 7i8h 7a6b 8h7g 1c1d 2e2d
+2026-06-05T22:08:21 GUI> go btime 530375 wtime 560423 byoyomi 30000
+2026-06-05T22:08:31 ENGINE> info depth 1 score cp -340 nodes 267137 string budget_ms 10000
+2026-06-05T22:08:31 ENGINE> bestmove 2c2d
+2026-06-05T22:08:33 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 7g7f 3c3d 5i5h 2b8h+ 7i8h 7a6b 8h7g 1c1d 2e2d 2c2d 2h2d
+2026-06-05T22:08:33 GUI> go btime 528432 wtime 550233 byoyomi 30000
+2026-06-05T22:08:43 ENGINE> info depth 1 score cp -340 nodes 270337 string budget_ms 10000
+2026-06-05T22:08:43 ENGINE> bestmove B*1b
+2026-06-05T22:08:51 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 7g7f 3c3d 5i5h 2b8h+ 7i8h 7a6b 8h7g 1c1d 2e2d 2c2d 2h2d B*1b P*2b
+2026-06-05T22:08:51 GUI> go btime 521310 wtime 539954 byoyomi 30000
+2026-06-05T22:09:01 ENGINE> info depth 1 score cp -316 nodes 191502 string budget_ms 10000
+2026-06-05T22:09:01 ENGINE> bestmove P*2c
+2026-06-05T22:09:03 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 7g7f 3c3d 5i5h 2b8h+ 7i8h 7a6b 8h7g 1c1d 2e2d 2c2d 2h2d B*1b P*2b P*2c 2b2a+
+2026-06-05T22:09:03 GUI> go btime 520082 wtime 529325 byoyomi 30000
+2026-06-05T22:09:13 ENGINE> info depth 1 score cp -279 nodes 147840 string budget_ms 10000
+2026-06-05T22:09:13 ENGINE> bestmove 2c2d
+2026-06-05T22:09:16 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 7g7f 3c3d 5i5h 2b8h+ 7i8h 7a6b 8h7g 1c1d 2e2d 2c2d 2h2d B*1b P*2b P*2c 2b2a+ 2c2d B*3c
+2026-06-05T22:09:16 GUI> go btime 517435 wtime 518823 byoyomi 30000
+2026-06-05T22:09:26 ENGINE> info depth 1 score cp -540 nodes 38914 string budget_ms 10000
+2026-06-05T22:09:27 ENGINE> bestmove 5a5b
+2026-06-05T22:09:33 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 7g7f 3c3d 5i5h 2b8h+ 7i8h 7a6b 8h7g 1c1d 2e2d 2c2d 2h2d B*1b P*2b P*2c 2b2a+ 2c2d B*3c 5a5b 3c1a+
+2026-06-05T22:09:33 GUI> go btime 511842 wtime 508026 byoyomi 30000
+2026-06-05T22:09:43 ENGINE> info depth 2 score cp -540 nodes 31873 string budget_ms 10000
+2026-06-05T22:09:43 ENGINE> bestmove 1b2c
+2026-06-05T22:09:50 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 7g7f 3c3d 5i5h 2b8h+ 7i8h 7a6b 8h7g 1c1d 2e2d 2c2d 2h2d B*1b P*2b P*2c 2b2a+ 2c2d B*3c 5a5b 3c1a+ 1b2c 2a3a
+2026-06-05T22:09:50 GUI> go btime 505546 wtime 497667 byoyomi 30000
+2026-06-05T22:10:00 ENGINE> info depth 2 score cp -528 nodes 99713 string budget_ms 10000
+2026-06-05T22:10:00 ENGINE> bestmove 4a3a
+2026-06-05T22:10:02 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 7g7f 3c3d 5i5h 2b8h+ 7i8h 7a6b 8h7g 1c1d 2e2d 2c2d 2h2d B*1b P*2b P*2c 2b2a+ 2c2d B*3c 5a5b 3c1a+ 1b2c 2a3a 4a3a 1a3c
+2026-06-05T22:10:02 GUI> go btime 504289 wtime 487091 byoyomi 30000
+2026-06-05T22:10:12 ENGINE> info depth 2 score cp -452 nodes 117122 string budget_ms 10000
+2026-06-05T22:10:12 ENGINE> bestmove 2c4a
+2026-06-05T22:10:25 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 7g7f 3c3d 5i5h 2b8h+ 7i8h 7a6b 8h7g 1c1d 2e2d 2c2d 2h2d B*1b P*2b P*2c 2b2a+ 2c2d B*3c 5a5b 3c1a+ 1b2c 2a3a 4a3a 1a3c 2c4a N*4d
+2026-06-05T22:10:25 GUI> go btime 491802 wtime 476803 byoyomi 30000
+2026-06-05T22:10:35 ENGINE> info depth 0 score cp 0 nodes 88065 string budget_ms 10000
+2026-06-05T22:10:35 ENGINE> bestmove 4c4d
+2026-06-05T22:10:38 GUI> position startpos moves 2g2f 8c8d 2f2e 8d8e 7g7f 3c3d 5i5h 2b8h+ 7i8h 7a6b 8h7g 1c1d 2e2d 2c2d 2h2d B*1b P*2b P*2c 2b2a+ 2c2d B*3c 5a5b 3c1a+ 1b2c 2a3a 4a3a 1a3c 2c4a N*4d 4c4d S*4c
+2026-06-05T22:10:38 GUI> go btime 490195 wtime 465897 byoyomi 30000
+2026-06-05T22:10:38 ENGINE> bestmove resign
+2026-06-05T22:10:38 GUI> gameover lose
+2026-06-05T22:10:38 GUI> quit
+2026-06-05T22:11:13 portable source engine=/home/mackerel38/poeAI_shogigui/poeAI/poeAI eval=/home/mackerel38/poeAI_shogigui/poeAI/poeAI_nn.nnue
+2026-06-05T22:11:13 distro=default engine=$HOME/.poeAI_shogigui_runtime/poeAI
+2026-06-05T22:11:13 args=--exec /bin/sh -lc "cd \"$HOME/.poeAI_shogigui_runtime\" && exec ./poeAI"
+2026-06-05T22:11:14 GUI> usi
+2026-06-05T22:11:14 ENGINE> id name poeAI
+2026-06-05T22:11:14 ENGINE> id author poe
+2026-06-05T22:11:14 ENGINE> option name Hash type spin default 64 min 1 max 4096
+2026-06-05T22:11:14 ENGINE> option name Threads type spin default 1 min 1 max 1
+2026-06-05T22:11:14 ENGINE> option name USI_Ponder type check default false
+2026-06-05T22:11:14 ENGINE> option name MoveOverhead type spin default 100 min 0 max 5000
+2026-06-05T22:11:14 ENGINE> option name MaxThinkTime type spin default 10000 min 100 max 10000
+2026-06-05T22:11:14 ENGINE> option name EvalFile type string default <empty>
+2026-06-05T22:11:14 ENGINE> usiok
+2026-06-05T22:11:14 GUI> setoption name USI_Hash value 1024
+2026-06-05T22:11:14 GUI> setoption name USI_Ponder value true
+2026-06-05T22:11:14 GUI> setoption name Hash value 64
+2026-06-05T22:11:14 GUI> setoption name Threads value 1
+2026-06-05T22:11:14 GUI> setoption name MoveOverhead value 100
+2026-06-05T22:11:14 GUI> setoption name MaxThinkTime value 10000
+2026-06-05T22:11:14 GUI> setoption name EvalFile value 
+2026-06-05T22:11:14 GUI> isready
+2026-06-05T22:11:14 ENGINE> info string evaluation NNUE
+2026-06-05T22:11:14 ENGINE> readyok
+2026-06-05T22:11:14 GUI> usinewgame
+2026-06-05T22:11:14 GUI> position startpos
+2026-06-05T22:11:15 GUI> go btime 600000 wtime 600000 byoyomi 30000
+2026-06-05T22:11:15 ENGINE> info depth 0 score cp 0 nodes 0 string book
+2026-06-05T22:11:15 ENGINE> bestmove 2g2f
+2026-06-05T22:11:25 GUI> position startpos moves 2g2f 3c3d
+2026-06-05T22:11:26 GUI> go btime 599808 wtime 589233 byoyomi 30000
+2026-06-05T22:11:36 ENGINE> info depth 1 score cp 235 nodes 385664 string budget_ms 10000
+2026-06-05T22:11:36 ENGINE> bestmove 7g7f
+2026-06-05T22:11:40 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d
+2026-06-05T22:11:40 GUI> go btime 589682 wtime 584994 byoyomi 30000
+2026-06-05T22:11:50 ENGINE> info depth 3 score cp 311 nodes 167680 string budget_ms 10000
+2026-06-05T22:11:50 ENGINE> bestmove 5i5h
+2026-06-05T22:12:03 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b
+2026-06-05T22:12:03 GUI> go btime 579370 wtime 572823 byoyomi 30000
+2026-06-05T22:12:13 ENGINE> info depth 3 score cp 439 nodes 87682 string budget_ms 10000
+2026-06-05T22:12:13 ENGINE> bestmove 2f2e
+2026-06-05T22:12:15 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c
+2026-06-05T22:12:16 GUI> go btime 568637 wtime 571007 byoyomi 30000
+2026-06-05T22:12:26 ENGINE> info depth 2 score cp 394 nodes 60416 string budget_ms 10000
+2026-06-05T22:12:26 ENGINE> bestmove 2e2d
+2026-06-05T22:12:33 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d
+2026-06-05T22:12:33 GUI> go btime 557037 wtime 565356 byoyomi 30000
+2026-06-05T22:12:44 ENGINE> info depth 1 score cp 394 nodes 55168 string budget_ms 10000
+2026-06-05T22:12:44 ENGINE> bestmove 7i6h
+2026-06-05T22:12:53 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b
+2026-06-05T22:12:53 GUI> go btime 546127 wtime 555785 byoyomi 30000
+2026-06-05T22:13:04 ENGINE> info depth 1 score cp 379 nodes 154624 string budget_ms 10000
+2026-06-05T22:13:04 ENGINE> bestmove 5g5f
+2026-06-05T22:13:07 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b
+2026-06-05T22:13:08 GUI> go btime 535806 wtime 551931 byoyomi 30000
+2026-06-05T22:13:18 ENGINE> info depth 0 score cp 0 nodes 130432 string budget_ms 10000
+2026-06-05T22:13:18 ENGINE> bestmove 7f7e
+2026-06-05T22:13:23 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b 7f7e 6b7b
+2026-06-05T22:13:23 GUI> go btime 525594 wtime 547083 byoyomi 30000
+2026-06-05T22:13:33 ENGINE> info depth 2 score cp 194 nodes 139392 string budget_ms 10000
+2026-06-05T22:13:33 ENGINE> bestmove 3g3f
+2026-06-05T22:13:42 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b 7f7e 6b7b 3g3f 7b8b
+2026-06-05T22:13:42 GUI> go btime 515363 wtime 538159 byoyomi 30000
+2026-06-05T22:13:52 ENGINE> info depth 0 score cp 0 nodes 60163 string budget_ms 10000
+2026-06-05T22:13:52 ENGINE> bestmove 7e7d
+2026-06-05T22:14:17 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b 7f7e 6b7b 3g3f 7b8b 7e7d 7c7d
+2026-06-05T22:14:17 GUI> go btime 504750 wtime 514546 byoyomi 30000
+2026-06-05T22:14:27 ENGINE> info depth 0 score cp 0 nodes 34304 string budget_ms 10000
+2026-06-05T22:14:27 ENGINE> bestmove 5f5e
+2026-06-05T22:14:44 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b 7f7e 6b7b 3g3f 7b8b 7e7d 7c7d 5f5e 6c6d
+2026-06-05T22:14:45 GUI> go btime 493675 wtime 497821 byoyomi 30000
+2026-06-05T22:14:55 ENGINE> info depth 3 score cp 6 nodes 257024 string budget_ms 10000
+2026-06-05T22:14:55 ENGINE> bestmove 2h2g
+2026-06-05T22:14:58 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b 7f7e 6b7b 3g3f 7b8b 7e7d 7c7d 5f5e 6c6d 2h2g 7a7b
+2026-06-05T22:14:58 GUI> go btime 483288 wtime 494894 byoyomi 30000
+2026-06-05T22:15:08 ENGINE> info depth 3 score cp 22 nodes 254081 string budget_ms 10000
+2026-06-05T22:15:08 ENGINE> bestmove 2g3g
+2026-06-05T22:15:16 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b 7f7e 6b7b 3g3f 7b8b 7e7d 7c7d 5f5e 6c6d 2h2g 7a7b 2g3g 4b4c
+2026-06-05T22:15:17 GUI> go btime 473016 wtime 486541 byoyomi 30000
+2026-06-05T22:15:27 ENGINE> info depth 3 score cp 5 nodes 184833 string budget_ms 10000
+2026-06-05T22:15:27 ENGINE> bestmove 9i9h
+2026-06-05T22:15:31 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b 7f7e 6b7b 3g3f 7b8b 7e7d 7c7d 5f5e 6c6d 2h2g 7a7b 2g3g 4b4c 9i9h 7b6c
+2026-06-05T22:15:32 GUI> go btime 462443 wtime 482712 byoyomi 30000
+2026-06-05T22:15:42 ENGINE> info depth 2 score cp -14 nodes 34432 string budget_ms 10000
+2026-06-05T22:15:42 ENGINE> bestmove 8i7g
+2026-06-05T22:16:01 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b 7f7e 6b7b 3g3f 7b8b 7e7d 7c7d 5f5e 6c6d 2h2g 7a7b 2g3g 4b4c 9i9h 7b6c 8i7g 6a7b
+2026-06-05T22:16:01 GUI> go btime 450966 wtime 464997 byoyomi 30000
+2026-06-05T22:16:11 ENGINE> info depth 2 score cp -3 nodes 39296 string budget_ms 10000
+2026-06-05T22:16:11 ENGINE> bestmove 8h7i
+2026-06-05T22:16:25 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b 7f7e 6b7b 3g3f 7b8b 7e7d 7c7d 5f5e 6c6d 2h2g 7a7b 2g3g 4b4c 9i9h 7b6c 8i7g 6a7b 8h7i 4d4e
+2026-06-05T22:16:25 GUI> go btime 439849 wtime 451992 byoyomi 30000
+2026-06-05T22:16:35 ENGINE> info depth 1 score cp -96 nodes 136449 string budget_ms 10000
+2026-06-05T22:16:35 ENGINE> bestmove 3g2g
+2026-06-05T22:16:42 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b 7f7e 6b7b 3g3f 7b8b 7e7d 7c7d 5f5e 6c6d 2h2g 7a7b 2g3g 4b4c 9i9h 7b6c 8i7g 6a7b 8h7i 4d4e 3g2g 3b2b
+2026-06-05T22:16:42 GUI> go btime 429689 wtime 444726 byoyomi 30000
+2026-06-05T22:16:52 ENGINE> info depth 1 score cp -149 nodes 196864 string budget_ms 10000
+2026-06-05T22:16:52 ENGINE> bestmove 2i3g
+2026-06-05T22:16:55 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b 7f7e 6b7b 3g3f 7b8b 7e7d 7c7d 5f5e 6c6d 2h2g 7a7b 2g3g 4b4c 9i9h 7b6c 8i7g 6a7b 8h7i 4d4e 3g2g 3b2b 2i3g 3c5e
+2026-06-05T22:16:55 GUI> go btime 419563 wtime 442462 byoyomi 30000
+2026-06-05T22:17:05 ENGINE> info depth 1 score cp -315 nodes 153473 string budget_ms 10000
+2026-06-05T22:17:05 ENGINE> bestmove 1g1f
+2026-06-05T22:17:30 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b 7f7e 6b7b 3g3f 7b8b 7e7d 7c7d 5f5e 6c6d 2h2g 7a7b 2g3g 4b4c 9i9h 7b6c 8i7g 6a7b 8h7i 4d4e 3g2g 3b2b 2i3g 3c5e 1g1f 3d3e
+2026-06-05T22:17:30 GUI> go btime 409158 wtime 418095 byoyomi 30000
+2026-06-05T22:17:41 ENGINE> info depth 0 score cp 0 nodes 67713 string budget_ms 10000
+2026-06-05T22:17:41 ENGINE> bestmove 3f3e
+2026-06-05T22:17:45 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b 7f7e 6b7b 3g3f 7b8b 7e7d 7c7d 5f5e 6c6d 2h2g 7a7b 2g3g 4b4c 9i9h 7b6c 8i7g 6a7b 8h7i 4d4e 3g2g 3b2b 2i3g 3c5e 1g1f 3d3e 3f3e P*3f
+2026-06-05T22:17:45 GUI> go btime 398036 wtime 414797 byoyomi 30000
+2026-06-05T22:17:56 ENGINE> info depth 0 score cp 0 nodes 10752 string budget_ms 10000
+2026-06-05T22:17:56 ENGINE> bestmove 3e3d
+2026-06-05T22:18:02 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b 7f7e 6b7b 3g3f 7b8b 7e7d 7c7d 5f5e 6c6d 2h2g 7a7b 2g3g 4b4c 9i9h 7b6c 8i7g 6a7b 8h7i 4d4e 3g2g 3b2b 2i3g 3c5e 1g1f 3d3e 3f3e P*3f 3e3d 3f3g+
+2026-06-05T22:18:02 GUI> go btime 386601 wtime 409788 byoyomi 30000
+2026-06-05T22:18:13 ENGINE> info depth 0 score cp 0 nodes 61184 string budget_ms 10000
+2026-06-05T22:18:13 ENGINE> bestmove 3d3c+
+2026-06-05T22:18:22 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b 7f7e 6b7b 3g3f 7b8b 7e7d 7c7d 5f5e 6c6d 2h2g 7a7b 2g3g 4b4c 9i9h 7b6c 8i7g 6a7b 8h7i 4d4e 3g2g 3b2b 2i3g 3c5e 1g1f 3d3e 3f3e P*3f 3e3d 3f3g+ 3d3c+ 2a3c
+2026-06-05T22:18:22 GUI> go btime 375009 wtime 400855 byoyomi 30000
+2026-06-05T22:18:32 ENGINE> info depth 0 score cp 0 nodes 176001 string budget_ms 10000
+2026-06-05T22:18:32 ENGINE> bestmove 1f1e
+2026-06-05T22:18:42 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b 7f7e 6b7b 3g3f 7b8b 7e7d 7c7d 5f5e 6c6d 2h2g 7a7b 2g3g 4b4c 9i9h 7b6c 8i7g 6a7b 8h7i 4d4e 3g2g 3b2b 2i3g 3c5e 1g1f 3d3e 3f3e P*3f 3e3d 3f3g+ 3d3c+ 2a3c 1f1e 3g2g
+2026-06-05T22:18:42 GUI> go btime 364892 wtime 391384 byoyomi 30000
+2026-06-05T22:18:52 ENGINE> info depth 1 score cp -2468 nodes 133504 string budget_ms 10000
+2026-06-05T22:18:52 ENGINE> bestmove 1i1f
+2026-06-05T22:18:57 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b 7f7e 6b7b 3g3f 7b8b 7e7d 7c7d 5f5e 6c6d 2h2g 7a7b 2g3g 4b4c 9i9h 7b6c 8i7g 6a7b 8h7i 4d4e 3g2g 3b2b 2i3g 3c5e 1g1f 3d3e 3f3e P*3f 3e3d 3f3g+ 3d3c+ 2a3c 1f1e 3g2g 1i1f R*1h
+2026-06-05T22:18:57 GUI> go btime 354530 wtime 386198 byoyomi 30000
+2026-06-05T22:19:07 ENGINE> info depth 0 score cp 0 nodes 48896 string budget_ms 10000
+2026-06-05T22:19:07 ENGINE> bestmove 5h5i
+2026-06-05T22:19:11 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b 7f7e 6b7b 3g3f 7b8b 7e7d 7c7d 5f5e 6c6d 2h2g 7a7b 2g3g 4b4c 9i9h 7b6c 8i7g 6a7b 8h7i 4d4e 3g2g 3b2b 2i3g 3c5e 1g1f 3d3e 3f3e P*3f 3e3d 3f3g+ 3d3c+ 2a3c 1f1e 3g2g 1i1f R*1h 5h5i 5e3g+
+2026-06-05T22:19:11 GUI> go btime 344182 wtime 382974 byoyomi 30000
+2026-06-05T22:19:22 ENGINE> info depth 0 score cp 0 nodes 64768 string budget_ms 10000
+2026-06-05T22:19:22 ENGINE> bestmove 4i4h
+2026-06-05T22:19:39 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b 7f7e 6b7b 3g3f 7b8b 7e7d 7c7d 5f5e 6c6d 2h2g 7a7b 2g3g 4b4c 9i9h 7b6c 8i7g 6a7b 8h7i 4d4e 3g2g 3b2b 2i3g 3c5e 1g1f 3d3e 3f3e P*3f 3e3d 3f3g+ 3d3c+ 2a3c 1f1e 3g2g 1i1f R*1h 5h5i 5e3g+ 4i4h 1h4h+
+2026-06-05T22:19:39 GUI> go btime 333565 wtime 366366 byoyomi 30000
+2026-06-05T22:19:50 ENGINE> info depth 0 score cp 0 nodes 60288 string budget_ms 10000
+2026-06-05T22:19:50 ENGINE> bestmove 3i4h
+2026-06-05T22:19:52 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b 7f7e 6b7b 3g3f 7b8b 7e7d 7c7d 5f5e 6c6d 2h2g 7a7b 2g3g 4b4c 9i9h 7b6c 8i7g 6a7b 8h7i 4d4e 3g2g 3b2b 2i3g 3c5e 1g1f 3d3e 3f3e P*3f 3e3d 3f3g+ 3d3c+ 2a3c 1f1e 3g2g 1i1f R*1h 5h5i 5e3g+ 4i4h 1h4h+ 3i4h G*4i
+2026-06-05T22:19:52 GUI> go btime 322468 wtime 364779 byoyomi 30000
+2026-06-05T22:20:02 ENGINE> info depth 0 score cp 0 nodes 168704 string budget_ms 10000
+2026-06-05T22:20:02 ENGINE> bestmove 5i5h
+2026-06-05T22:20:04 GUI> position startpos moves 2g2f 3c3d 7g7f 4c4d 5i5h 8b3b 2f2e 2b3c 2e2d 2c2d 7i6h 3a4b 5g5f 5a6b 7f7e 6b7b 3g3f 7b8b 7e7d 7c7d 5f5e 6c6d 2h2g 7a7b 2g3g 4b4c 9i9h 7b6c 8i7g 6a7b 8h7i 4d4e 3g2g 3b2b 2i3g 3c5e 1g1f 3d3e 3f3e P*3f 3e3d 3f3g+ 3d3c+ 2a3c 1f1e 3g2g 1i1f R*1h 5h5i 5e3g+ 4i4h 1h4h+ 3i4h G*4i 5i5h 3g4h
+2026-06-05T22:20:04 GUI> go btime 311973 wtime 362577 byoyomi 30000
+2026-06-05T22:20:05 ENGINE> bestmove resign
+2026-06-05T22:20:05 GUI> gameover lose
+2026-06-05T22:20:05 GUI> quit
+2026-06-05T22:20:42 portable source engine=/home/mackerel38/poeAI_shogigui/poeAI/poeAI eval=/home/mackerel38/poeAI_shogigui/poeAI/poeAI_nn.nnue
+2026-06-05T22:20:43 distro=default engine=$HOME/.poeAI_shogigui_runtime/poeAI
+2026-06-05T22:20:43 args=--exec /bin/sh -lc "cd \"$HOME/.poeAI_shogigui_runtime\" && exec ./poeAI"
+2026-06-05T22:20:43 GUI> usi
+2026-06-05T22:20:44 ENGINE> id name poeAI
+2026-06-05T22:20:44 ENGINE> id author poe
+2026-06-05T22:20:44 ENGINE> option name Hash type spin default 64 min 1 max 4096
+2026-06-05T22:20:44 ENGINE> option name Threads type spin default 1 min 1 max 1
+2026-06-05T22:20:44 ENGINE> option name USI_Ponder type check default false
+2026-06-05T22:20:44 ENGINE> option name MoveOverhead type spin default 100 min 0 max 5000
+2026-06-05T22:20:44 ENGINE> option name MaxThinkTime type spin default 10000 min 100 max 10000
+2026-06-05T22:20:44 ENGINE> option name EvalFile type string default <empty>
+2026-06-05T22:20:44 ENGINE> usiok
+2026-06-05T22:20:44 GUI> setoption name USI_Hash value 1024
+2026-06-05T22:20:44 GUI> setoption name USI_Ponder value true
+2026-06-05T22:20:44 GUI> setoption name Hash value 64
+2026-06-05T22:20:44 GUI> setoption name Threads value 1
+2026-06-05T22:20:44 GUI> setoption name MoveOverhead value 100
+2026-06-05T22:20:44 GUI> setoption name MaxThinkTime value 10000
+2026-06-05T22:20:44 GUI> setoption name EvalFile value 
+2026-06-05T22:20:44 ENGINE> info string failed to load EvalFile path=[]
+2026-06-05T22:20:44 ENGINE> info string evaluation NNUE
+2026-06-05T22:20:44 ENGINE> readyok
+2026-06-05T22:20:44 GUI> usinewgame
+2026-06-05T22:20:44 GUI> position sfen ln3g2l/1kg4r1/pp1spsn1p/2pp3p1/4bp2P/8L/PPNP1P1+p1/L2SK4/2BG1GS2 w Prn3p 48
+2026-06-05T22:20:44 GUI> go infinite
+2026-06-05T22:20:44 ENGINE> info depth 0 score cp 0 nodes 0 string book
+2026-06-05T22:20:44 ENGINE> bestmove 2g2f
+2026-06-05T22:20:57 GUI> position sfen ln3g2l/1kg4r1/pp1spsn1p/2pp3p1/4bp2P/7+pL/PPNP1P3/L2SK4/2BG1GS2 b Prn3p 49
+2026-06-05T22:20:57 GUI> go infinite
+2026-06-05T22:20:57 ENGINE> info depth 1 score cp -2492 nodes 384 string budget_ms 50
+2026-06-05T22:20:57 ENGINE> bestmove P*2i
+2026-06-05T22:22:59 GUI> position sfen ln3g2l/1kg4r1/pp1spsn1p/2pp3p1/4bp2P/7+pL/PPNP1P3/L2SK4/2B1GGS2 w Prn3p 50
+2026-06-05T22:22:59 GUI> go infinite
+2026-06-05T22:22:59 ENGINE> info depth 0 score cp 2866 nodes 384 string budget_ms 100
+2026-06-05T22:22:59 ENGINE> bestmove 5e7g+
+2026-06-05T22:23:09 GUI> position sfen ln3g2l/1kg4r1/pp1spsn1p/2pp3p1/5p2P/7+pL/PP+bP1P3/L2SK4/2B1GGS2 b Pr2n3p 51
+2026-06-05T22:23:09 GUI> go infinite
+2026-06-05T22:23:10 ENGINE> info depth 0 score cp 0 nodes 257 string budget_ms 50
+2026-06-05T22:23:10 ENGINE> bestmove 1e1d
+2026-06-05T22:23:24 GUI> position sfen ln3g2l/1kg4r1/pp1spsn1p/2pp3p1/5p2P/7+pL/PPSP1P3/L3K4/2B1GGS2 w BPr2n3p 52
+2026-06-05T22:23:24 GUI> go infinite
+2026-06-05T22:23:25 ENGINE> info depth 0 score cp 0 nodes 384 string budget_ms 50
+2026-06-05T22:23:25 ENGINE> bestmove 9a9b
+2026-06-05T22:23:30 GUI> position sfen 1n3g2l/lkg4r1/pp1spsn1p/2pp3p1/5p2P/7+pL/PPSP1P3/L3K4/2B1GGS2 b BPr2n3p 53
+2026-06-05T22:23:30 GUI> go infinite
+2026-06-05T22:23:30 ENGINE> info depth 0 score cp 0 nodes 512 string budget_ms 50
+2026-06-05T22:23:30 ENGINE> bestmove 1e1d
+2026-06-05T22:23:31 GUI> position sfen 1n3g2l/lkg4r1/pp1spsn1p/2pp3pP/5p3/7+pL/PPSP1P3/L3K4/2B1GGS2 w BPr2n3p 54
+2026-06-05T22:23:31 GUI> go infinite
+2026-06-05T22:23:32 ENGINE> info depth 0 score cp 0 nodes 256 string budget_ms 50
+2026-06-05T22:23:32 ENGINE> bestmove 8a7c
+2026-06-05T22:23:33 GUI> position sfen 5g2l/lkg4r1/ppnspsn1p/2pp3pP/5p3/7+pL/PPSP1P3/L3K4/2B1GGS2 b BPr2n3p 55
+2026-06-05T22:23:33 GUI> go infinite
+2026-06-05T22:23:33 ENGINE> info depth 0 score cp 0 nodes 268 string budget_ms 75
+2026-06-05T22:23:33 ENGINE> bestmove 1d1c+
+2026-06-05T22:23:35 GUI> position sfen 5g2l/lkg4r1/ppnspsn1+P/2pp3p1/5p3/7+pL/PPSP1P3/L3K4/2B1GGS2 w B2Pr2n3p 56
+2026-06-05T22:23:35 GUI> go infinite
+2026-06-05T22:23:35 ENGINE> info depth 0 score cp 0 nodes 129 string budget_ms 50
+2026-06-05T22:23:35 ENGINE> bestmove 4a5b
+2026-06-05T22:23:37 GUI> position sfen 8l/lkg1g2r1/ppnspsn1+P/2pp3p1/5p3/7+pL/PPSP1P3/L3K4/2B1GGS2 b B2Pr2n3p 57
+2026-06-05T22:23:37 GUI> go infinite
+2026-06-05T22:23:37 ENGINE> info depth 0 score cp 0 nodes 385 string budget_ms 75
+2026-06-05T22:23:37 ENGINE> bestmove 1c2b
+2026-06-05T22:23:38 GUI> position sfen 8l/lkg1g2+P1/ppnspsn2/2pp3p1/5p3/7+pL/PPSP1P3/L3K4/2B1GGS2 w RB2Pr2n3p 58
+2026-06-05T22:23:38 GUI> go infinite
+2026-06-05T22:23:38 ENGINE> info depth 0 score cp 0 nodes 128 string budget_ms 50
+2026-06-05T22:23:38 ENGINE> bestmove 1a1b
+2026-06-05T22:23:40 GUI> position sfen 9/lkg1g2+Pl/ppnspsn2/2pp3p1/5p3/7+pL/PPSP1P3/L3K4/2B1GGS2 b RB2Pr2n3p 59
+2026-06-05T22:23:40 GUI> go infinite
+2026-06-05T22:23:40 ENGINE> info depth 0 score cp 418 nodes 256 string budget_ms 75
+2026-06-05T22:23:40 ENGINE> bestmove 1f1b+
+2026-06-05T22:23:42 GUI> position sfen 9/lkg1g2+P+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 w RBL2Pr2n3p 60
+2026-06-05T22:23:43 GUI> go infinite
+2026-06-05T22:23:43 ENGINE> info depth 0 score cp 0 nodes 129 string budget_ms 50
+2026-06-05T22:23:43 ENGINE> bestmove 8b9a
+2026-06-05T22:23:44 GUI> position sfen k8/l1g1g2+P+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 b RBL2Pr2n3p 61
+2026-06-05T22:23:44 GUI> go infinite
+2026-06-05T22:23:44 ENGINE> info depth 0 score cp 0 nodes 132 string budget_ms 50
+2026-06-05T22:23:44 ENGINE> bestmove 2b3a
+2026-06-05T22:23:46 GUI> position sfen k5+P2/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 w RBL2Pr2n3p 62
+2026-06-05T22:23:47 GUI> go infinite
+2026-06-05T22:23:47 ENGINE> info depth 0 score cp 0 nodes 260 string budget_ms 50
+2026-06-05T22:23:47 ENGINE> bestmove 9a8a
+2026-06-05T22:23:48 GUI> position sfen 1k4+P2/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 b RBL2Pr2n3p 63
+2026-06-05T22:23:48 GUI> go infinite
+2026-06-05T22:23:48 ENGINE> info depth 0 score cp 0 nodes 133 string budget_ms 50
+2026-06-05T22:23:48 ENGINE> bestmove 3a4a
+2026-06-05T22:23:50 GUI> position sfen 1k3+P3/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 w RBL2Pr2n3p 64
+2026-06-05T22:23:50 GUI> go infinite
+2026-06-05T22:23:50 ENGINE> info depth 0 score cp 0 nodes 129 string budget_ms 50
+2026-06-05T22:23:50 ENGINE> bestmove 8a9a
+2026-06-05T22:23:51 GUI> position sfen k4+P3/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 b RBL2Pr2n3p 65
+2026-06-05T22:23:51 GUI> go infinite
+2026-06-05T22:23:52 ENGINE> info depth 0 score cp 0 nodes 129 string budget_ms 50
+2026-06-05T22:23:52 ENGINE> bestmove 4a3a
+2026-06-05T22:23:53 GUI> position sfen k5+P2/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 w RBL2Pr2n3p 66
+2026-06-05T22:23:53 GUI> go infinite
+2026-06-05T22:23:53 ENGINE> info depth 0 score cp 0 nodes 129 string budget_ms 50
+2026-06-05T22:23:53 ENGINE> bestmove 9a8a
+2026-06-05T22:23:55 GUI> position sfen 1k4+P2/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 b RBL2Pr2n3p 67
+2026-06-05T22:23:55 GUI> go infinite
+2026-06-05T22:23:55 ENGINE> info depth 0 score cp 0 nodes 133 string budget_ms 50
+2026-06-05T22:23:55 ENGINE> bestmove 3a4a
+2026-06-05T22:23:56 GUI> position sfen 1k3+P3/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 w RBL2Pr2n3p 68
+2026-06-05T22:23:56 GUI> go infinite
+2026-06-05T22:23:56 ENGINE> info depth 0 score cp 0 nodes 129 string budget_ms 50
+2026-06-05T22:23:56 ENGINE> bestmove 8a9a
+2026-06-05T22:23:57 GUI> position sfen k4+P3/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 b RBL2Pr2n3p 69
+2026-06-05T22:23:57 GUI> go infinite
+2026-06-05T22:23:58 ENGINE> info depth 0 score cp 0 nodes 129 string budget_ms 50
+2026-06-05T22:23:58 ENGINE> bestmove 4a3a
+2026-06-05T22:23:59 GUI> position sfen k5+P2/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 w RBL2Pr2n3p 70
+2026-06-05T22:23:59 GUI> go infinite
+2026-06-05T22:23:59 ENGINE> info depth 0 score cp 0 nodes 129 string budget_ms 50
+2026-06-05T22:23:59 ENGINE> bestmove 9a8a
+2026-06-05T22:24:00 GUI> position sfen 1k4+P2/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 b RBL2Pr2n3p 71
+2026-06-05T22:24:01 GUI> go infinite
+2026-06-05T22:24:01 ENGINE> info depth 0 score cp 0 nodes 133 string budget_ms 50
+2026-06-05T22:24:01 ENGINE> bestmove 3a4a
+2026-06-05T22:24:02 GUI> position sfen 1k3+P3/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 w RBL2Pr2n3p 72
+2026-06-05T22:24:02 GUI> go infinite
+2026-06-05T22:24:02 ENGINE> info depth 0 score cp 0 nodes 129 string budget_ms 50
+2026-06-05T22:24:02 ENGINE> bestmove 8a9a
+2026-06-05T22:24:03 GUI> position sfen k4+P3/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 b RBL2Pr2n3p 73
+2026-06-05T22:24:03 GUI> go infinite
+2026-06-05T22:24:04 ENGINE> info depth 0 score cp 0 nodes 129 string budget_ms 50
+2026-06-05T22:24:04 ENGINE> bestmove 4a3a
+2026-06-05T22:24:04 GUI> position sfen k5+P2/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 w RBL2Pr2n3p 74
+2026-06-05T22:24:05 GUI> go infinite
+2026-06-05T22:24:05 ENGINE> info depth 0 score cp 0 nodes 260 string budget_ms 50
+2026-06-05T22:24:05 ENGINE> bestmove 9a8a
+2026-06-05T22:24:06 GUI> position sfen 1k4+P2/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 b RBL2Pr2n3p 75
+2026-06-05T22:24:06 GUI> go infinite
+2026-06-05T22:24:06 ENGINE> info depth 0 score cp 0 nodes 133 string budget_ms 50
+2026-06-05T22:24:06 ENGINE> bestmove 3a4a
+2026-06-05T22:24:08 GUI> position sfen 1k3+P3/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 w RBL2Pr2n3p 76
+2026-06-05T22:24:08 GUI> go infinite
+2026-06-05T22:24:08 ENGINE> info depth 0 score cp 0 nodes 129 string budget_ms 50
+2026-06-05T22:24:08 ENGINE> bestmove 8a9a
+2026-06-05T22:24:10 GUI> position sfen k4+P3/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 b RBL2Pr2n3p 77
+2026-06-05T22:24:10 GUI> go infinite
+2026-06-05T22:24:10 ENGINE> info depth 0 score cp 0 nodes 129 string budget_ms 50
+2026-06-05T22:24:10 ENGINE> bestmove 4a3a
+2026-06-05T22:24:11 GUI> position sfen k5+P2/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 w RBL2Pr2n3p 78
+2026-06-05T22:24:11 GUI> go infinite
+2026-06-05T22:24:12 ENGINE> info depth 0 score cp 0 nodes 129 string budget_ms 50
+2026-06-05T22:24:12 ENGINE> bestmove 9a8a
+2026-06-05T22:24:13 GUI> position sfen 1k4+P2/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 b RBL2Pr2n3p 79
+2026-06-05T22:24:13 GUI> go infinite
+2026-06-05T22:24:14 ENGINE> info depth 0 score cp 0 nodes 133 string budget_ms 50
+2026-06-05T22:24:14 ENGINE> bestmove 3a4a
+2026-06-05T22:24:15 GUI> position sfen 1k3+P3/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 w RBL2Pr2n3p 80
+2026-06-05T22:24:15 GUI> go infinite
+2026-06-05T22:24:16 ENGINE> info depth 0 score cp 0 nodes 129 string budget_ms 50
+2026-06-05T22:24:16 ENGINE> bestmove 8a9a
+2026-06-05T22:24:16 GUI> position sfen k4+P3/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 b RBL2Pr2n3p 81
+2026-06-05T22:24:17 GUI> go infinite
+2026-06-05T22:24:17 ENGINE> info depth 0 score cp 0 nodes 129 string budget_ms 50
+2026-06-05T22:24:18 ENGINE> bestmove 4a3a
+2026-06-05T22:24:18 GUI> stop
+2026-06-05T22:24:18 GUI> position sfen k5+P2/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 w RBL2Pr2n3p 82
+2026-06-05T22:24:18 GUI> go infinite
+2026-06-05T22:24:19 ENGINE> info depth 0 score cp 0 nodes 129 string budget_ms 50
+2026-06-05T22:24:19 ENGINE> bestmove 9a8a
+2026-06-05T22:24:19 GUI> position sfen 1k4+P2/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 b RBL2Pr2n3p 83
+2026-06-05T22:24:20 GUI> go infinite
+2026-06-05T22:24:20 ENGINE> info depth 0 score cp 0 nodes 133 string budget_ms 50
+2026-06-05T22:24:20 ENGINE> bestmove 3a4a
+2026-06-05T22:24:26 GUI> position sfen 1k3+P3/l1g1g3+L/ppnspsn2/2pp3p1/5p3/7+p1/PPSP1P3/L3K4/2B1GGS2 w RBL2Pr2n3p 84
+2026-06-05T22:24:27 GUI> go infinite
+2026-06-05T22:24:27 ENGINE> info depth 0 score cp 0 nodes 129 string budget_ms 50
+2026-06-05T22:24:27 ENGINE> bestmove 8a9a
+2026-06-05T22:24:38 GUI> position sfen ln3g1nl/1kg4r1/pp1spsb1p/2pp2pp1/4Pp3/6P2/PPNP1PNRP/L2SK4/2BG1GS1L w 2p 36
+2026-06-05T22:24:38 GUI> go infinite
+2026-06-05T22:24:38 ENGINE> info depth 0 score cp 0 nodes 384 string budget_ms 50
+2026-06-05T22:24:38 ENGINE> bestmove 9a9b
+2026-06-05T22:24:40 GUI> position sfen ln3g1nl/1kg3r2/pp1spsb1p/2pp2pp1/4Pp3/6P2/PPNP1P1RP/L2SK4/2BG1GSNL w 2p 34
+2026-06-05T22:24:40 GUI> go infinite
+2026-06-05T22:24:40 ENGINE> info depth 0 score cp 0 nodes 512 string budget_ms 50
+2026-06-05T22:24:40 ENGINE> bestmove 9a9b
+2026-06-05T22:24:46 GUI> position sfen ln5nl/1kg1g1r2/pp1spsb1p/2pp2pp1/4Pp3/6P2/PPNP1P1RP/L2SK4/2BG1GSNL b 2p 35
+2026-06-05T22:24:46 GUI> go infinite
+2026-06-05T22:24:46 ENGINE> info depth 0 score cp 0 nodes 0 string book
+2026-06-05T22:24:46 ENGINE> bestmove 2g2f
+2026-06-05T22:25:48 GUI> gameover draw
+2026-06-05T22:25:48 GUI> quit
+2026-06-05T22:26:03 portable source engine=/home/mackerel38/poeAI_shogigui/poeAI/poeAI eval=/home/mackerel38/poeAI_shogigui/poeAI/poeAI_nn.nnue
+2026-06-05T22:26:07 distro=default engine=$HOME/.poeAI_shogigui_runtime/poeAI
+2026-06-05T22:26:07 args=--exec /bin/sh -lc "cd \"$HOME/.poeAI_shogigui_runtime\" && exec ./poeAI"
+2026-06-05T22:26:07 GUI> usi
+2026-06-05T22:26:09 ENGINE> id name poeAI
+2026-06-05T22:26:09 ENGINE> id author poe
+2026-06-05T22:26:09 ENGINE> option name Hash type spin default 64 min 1 max 4096
+2026-06-05T22:26:09 ENGINE> option name Threads type spin default 1 min 1 max 1
+2026-06-05T22:26:09 ENGINE> option name USI_Ponder type check default false
+2026-06-05T22:26:09 ENGINE> option name MoveOverhead type spin default 100 min 0 max 5000
+2026-06-05T22:26:09 ENGINE> option name MaxThinkTime type spin default 10000 min 100 max 10000
+2026-06-05T22:26:09 ENGINE> option name EvalFile type string default <empty>
+2026-06-05T22:26:09 ENGINE> usiok
+2026-06-05T22:26:09 GUI> setoption name USI_Hash value 1024
+2026-06-05T22:26:09 GUI> setoption name USI_Ponder value true
+2026-06-05T22:26:09 GUI> setoption name Hash value 64
+2026-06-05T22:26:09 GUI> setoption name Threads value 1
+2026-06-05T22:26:09 GUI> setoption name MoveOverhead value 100
+2026-06-05T22:26:09 GUI> setoption name MaxThinkTime value 10000
+2026-06-05T22:26:09 GUI> setoption name EvalFile value 
+2026-06-05T22:26:09 GUI> isready
+2026-06-05T22:26:09 ENGINE> info string evaluation NNUE
+2026-06-05T22:26:09 ENGINE> readyok
+2026-06-05T22:26:09 portable source engine=/home/mackerel38/poeAI_shogigui/poeAI/poeAI eval=/home/mackerel38/poeAI_shogigui/poeAI/poeAI_nn.nnue
+2026-06-05T22:26:13 prep stderr: cp: cannot create regular file '/home/mackerel38/.poeAI_shogigui_runtime/poeAI': Text file busy
+
+2026-06-05T22:26:30 GUI> gameover draw
+2026-06-05T22:26:30 GUI> quit
+2026-06-05T22:27:09 portable source engine=/home/mackerel38/poeAI_shogigui/poeAI/poeAI eval=/home/mackerel38/poeAI_shogigui/poeAI/poeAI_nn.nnue
+2026-06-05T22:27:10 distro=default engine=$HOME/.poeAI_shogigui_runtime/poeAI
+2026-06-05T22:27:10 args=--exec /bin/sh -lc "cd \"$HOME/.poeAI_shogigui_runtime\" && exec ./poeAI"
+2026-06-05T22:27:10 GUI> usi
+2026-06-05T22:27:10 ENGINE> id name poeAI
+2026-06-05T22:27:10 ENGINE> id author poe
+2026-06-05T22:27:10 ENGINE> option name Hash type spin default 64 min 1 max 4096
+2026-06-05T22:27:10 ENGINE> option name Threads type spin default 1 min 1 max 1
+2026-06-05T22:27:10 ENGINE> option name USI_Ponder type check default false
+2026-06-05T22:27:10 ENGINE> option name MoveOverhead type spin default 100 min 0 max 5000
+2026-06-05T22:27:10 ENGINE> option name MaxThinkTime type spin default 10000 min 100 max 10000
+2026-06-05T22:27:10 ENGINE> option name EvalFile type string default <empty>
+2026-06-05T22:27:10 ENGINE> usiok
+2026-06-05T22:27:10 GUI> setoption name USI_Hash value 1024
+2026-06-05T22:27:10 GUI> setoption name USI_Ponder value true
+2026-06-05T22:27:10 GUI> setoption name Hash value 64
+2026-06-05T22:27:10 GUI> setoption name Threads value 1
+2026-06-05T22:27:10 GUI> setoption name MoveOverhead value 100
+2026-06-05T22:27:10 GUI> setoption name MaxThinkTime value 10000
+2026-06-05T22:27:10 GUI> setoption name EvalFile value 
+2026-06-05T22:27:10 GUI> isready
+2026-06-05T22:27:10 ENGINE> info string evaluation NNUE
+2026-06-05T22:27:10 ENGINE> readyok
+2026-06-05T22:27:11 GUI> usinewgame
+2026-06-05T22:27:18 GUI> gameover draw
+2026-06-05T22:27:19 GUI> quit
+2026-06-05T22:27:31 portable source engine=/home/mackerel38/poeAI_shogigui/poeAI/poeAI eval=/home/mackerel38/poeAI_shogigui/poeAI/poeAI_nn.nnue
+2026-06-05T22:27:32 distro=default engine=$HOME/.poeAI_shogigui_runtime/poeAI
+2026-06-05T22:27:32 args=--exec /bin/sh -lc "cd \"$HOME/.poeAI_shogigui_runtime\" && exec ./poeAI"
+2026-06-05T22:27:32 GUI> usi
+2026-06-05T22:27:33 GUI> setoption name USI_Hash value 1024
+2026-06-05T22:27:33 GUI> setoption name USI_Ponder value true
+2026-06-05T22:27:33 GUI> isready
+2026-06-05T22:27:33 ENGINE> id name poeAI
+2026-06-05T22:27:33 ENGINE> id author poe
+2026-06-05T22:27:33 ENGINE> option name Hash type spin default 64 min 1 max 4096
+2026-06-05T22:27:33 ENGINE> option name Threads type spin default 1 min 1 max 1
+2026-06-05T22:27:33 ENGINE> option name USI_Ponder type check default false
+2026-06-05T22:27:33 ENGINE> option name MoveOverhead type spin default 100 min 0 max 5000
+2026-06-05T22:27:33 ENGINE> option name MaxThinkTime type spin default 10000 min 100 max 10000
+2026-06-05T22:27:33 ENGINE> option name EvalFile type string default <empty>
+2026-06-05T22:27:33 ENGINE> usiok
+2026-06-05T22:27:33 ENGINE> info string evaluation NNUE
+2026-06-05T22:27:33 ENGINE> readyok
+2026-06-05T22:27:45 portable source engine=/home/mackerel38/poeAI_shogigui/poeAI/poeAI eval=/home/mackerel38/poeAI_shogigui/poeAI/poeAI_nn.nnue
+2026-06-05T22:27:47 distro=default engine=$HOME/.poeAI_shogigui_runtime/poeAI
+2026-06-05T22:27:47 args=--exec /bin/sh -lc "cd \"$HOME/.poeAI_shogigui_runtime\" && exec ./poeAI"
+2026-06-05T22:27:47 GUI> usi
+2026-06-05T22:27:48 ENGINE> id name poeAI
+2026-06-05T22:27:48 ENGINE> id author poe
+2026-06-05T22:27:48 ENGINE> option name Hash type spin default 64 min 1 max 4096
+2026-06-05T22:27:48 ENGINE> option name Threads type spin default 1 min 1 max 1
+2026-06-05T22:27:48 ENGINE> option name USI_Ponder type check default false
+2026-06-05T22:27:48 ENGINE> option name MoveOverhead type spin default 100 min 0 max 5000
+2026-06-05T22:27:48 ENGINE> option name MaxThinkTime type spin default 10000 min 100 max 10000
+2026-06-05T22:27:48 ENGINE> option name EvalFile type string default <empty>
+2026-06-05T22:27:48 ENGINE> usiok
+2026-06-05T22:27:48 GUI> setoption name USI_Hash value 1024
+2026-06-05T22:27:48 GUI> setoption name USI_Ponder value true
+2026-06-05T22:27:48 GUI> setoption name Hash value 64
+2026-06-05T22:27:48 GUI> setoption name Threads value 1
+2026-06-05T22:27:48 GUI> setoption name MoveOverhead value 100
+2026-06-05T22:27:48 GUI> setoption name MaxThinkTime value 10000
+2026-06-05T22:27:48 GUI> setoption name EvalFile value 
+2026-06-05T22:27:48 GUI> isready
+2026-06-05T22:27:48 ENGINE> info string evaluation NNUE
+2026-06-05T22:27:48 ENGINE> readyok
+2026-06-05T22:27:49 portable source engine=/home/mackerel38/poeAI_shogigui/poeAI/poeAI eval=/home/mackerel38/poeAI_shogigui/poeAI/poeAI_nn.nnue
+2026-06-05T22:27:51 prep stderr: cp: cannot create regular file '/home/mackerel38/.poeAI_shogigui_runtime/poeAI': Text file busy
+
+2026-06-05T22:28:12 GUI> gameover draw
+2026-06-05T22:28:13 GUI> quit
